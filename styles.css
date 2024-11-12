@@ -10,6 +10,7 @@
         .location-item a {
             color: #007BFF;
             text-decoration: none;
+            text-wrap: wrap;
         }
 
         .location-item a:hover {
