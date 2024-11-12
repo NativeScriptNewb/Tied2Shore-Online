@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>@Sea Directory</title>
+
+        <!-- Link to custom stylesheet -->
+        <link rel="stylesheet" href="/styles.css">
+
+        <!-- Leaflet CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+        <!-- Leaflet JS -->
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+        <!-- Load JSON database -->
+        <script>
+            // Intialize locations
+            let locations = [];
+
+            function loadJSON() {
+                fetch('/dir.json') // Fetch JSON data and ensure .json is found
+                    .then(response => {
+                        if (!response.ok) throw new Error('Network response was not ok');
+                        return response.json();
+                    })
+                    .then(data => {
+                        // Syncronize data with locations variable
+                        locations = data.locations;
+                        // Create list of locations
+                        displayLocations(locations); // Display the location data
+                        // Load leaflet map and pass locations to the map to create pins
+                        initializeMap(locations); // Initialize the map with location data
+                    })
+                    // Error handling
+                    .catch(error => {
+                        console.error('There was a problem with the fetch operation:', error);
+                    });
+            }
+
+            // Call the loadJSON function when the page loads
+            window.onload = loadJSON;
+        </script>
+    </head>
+
+
+
+    <body>
+
+        <!-- Header -->
+        <header>
+            <img src="/PMILogo.png" width="250" height="140">
+            <h1>@SEA Directory</h1>
+        </header>
+
+        <!-- Container for leaflet map-->
+        <div id="map"></div>
+
+        <!-- Container for locations, aka list of locations -->
+        <div class="container">
+            <!-- Subcontainer for search bar -->
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search locations..." onkeyup="filterLocations()">
+            </div>
+
+            <!-- Subcontainer for locations, aka list of locations -->
+            <div id="locations"></div>
+        </div>
+
+        <!-- JavaScript for displaying locations and filtering -->
+        <script>
+            // Function to initialize the map and place markers
+            function initializeMap(locations) {
+                const map = L.map('map').setView([20.51772, -10.73388], 2); // Center map globally
+
+                // OpenStreetMap Layer
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    maxZoom: 19,
+                    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                }).addTo(map);
+
+                // Custom icon for markers
+                let locationIcon = L.icon({
+                    iconUrl: 'GenericIcon.png',
+                    iconSize: [32, 32],
+                    iconAnchor: [16, 32],
+                    popupAnchor: [0, -32]
+                });
+
+                // Track selected locations
+                let selectedLocation = null;
+                
+
+                // Function to update the locations displayed based on map bounds
+                function updateVisibleLocations(locationsToDisplay = locations) {
+                    const bounds = map.getBounds(); // Get the current map bounds (latLngBounds)
+
+                    // Filter locations based on map bounds
+                    const visibleLocations = locationsToDisplay.filter(location => {
+                        const latLng = L.latLng(location.Coordinates); // Create a LatLng object
+                        return bounds.contains(latLng); // Check if the location is within the bounds
+                    });
+
+                    displayLocations(visibleLocations); // Update the directory with filtered locations
+                }
+
+                // Add markers for each location on the map
+                locations.forEach(location => {
+                    if (location.Coordinates) {
+
+                        if (location.PMI === true) {
+                            locationIcon = L.icon({
+                                iconUrl: 'PMIicon.png',
+                                iconSize: [32, 32],
+                                iconAnchor: [16, 32],
+                                popupAnchor: [0, -32]
+                            });
+                        } else {
+                            locationIcon = L.icon({
+                                iconUrl: 'GenericIcon.png',
+                                iconSize: [32, 32],
+                                iconAnchor: [16, 32],
+                                popupAnchor: [0, -32]
+                            })
+                        }
+
+                        const marker = L.marker(location.Coordinates, {
+                            icon: locationIcon
+                        }).addTo(map);
+
+                        // Popup Content for each marker
+                        marker.bindPopup(`<b>${location.Name}</b><br>${location.Country}`)
+
+                    // Update list to reflect only selected location
+                    .on('popupopen', () => {
+                        selectedLocation = location; // Store the selected location
+                        updateVisibleLocations([selectedLocation]); // Only show the selected location in the list
+                    })
+
+                    // Update list to show all when no location selected
+                    .on('popupclose', () => {
+                        selectedLocation = null; // Reset the selected location
+                        updateVisibleLocations();  // Revert to showing locations within the map bounds
+                    });
+                    
+                    }
+                });
+
+                // Update visible locations whenever the map is moved or zoomed
+                map.on('moveend', () => {
+                    if (!selectedLocation) { // Only update locations based on bounds when no location is selected
+                    updateVisibleLocations(); // Show locations based on current map bounds
+                }
+            });
+
+                // Initial check to filter and display locations within the map bounds
+                updateVisibleLocations();
+            }
+
+            // Function to display locations in the directory
+            function displayLocations(locations) {
+                const locationsContainer = document.getElementById('locations');
+                locationsContainer.innerHTML = ''; // Clear previous location list
+
+                // If no locations match, display a "No results" message
+                if (locations.length === 0) {
+                    const noResultsMessage = document.createElement('p');
+                    noResultsMessage.textContent = "No results found";
+                    noResultsMessage.classList.add('no-results');
+                    locationsContainer.appendChild(noResultsMessage);
+                    return;
+                }
+
+                locations.forEach(location => {
+                    const locationElement = document.createElement('div');
+                    locationElement.classList.add('location-item');
+
+                    // Create icon dynamically for each location
+                    const iconImg = document.createElement('img');
+                    iconImg.style.width = '64px';
+                    iconImg.style.height = '64px';
+                    iconImg.style.display = 'block';
+                    iconImg.style.margin = '0 auto';
+
+                    // Set the icon based on PMI status
+                    iconImg.src = location.PMI ? '/PMILogoSquare.png' : '/anchorIcon.png';
+
+                    // Append the iconImg  to locationElement
+                        locationElement.appendChild(iconImg);
+
+
+                    // Name of the location
+                    const name = document.createElement('h3');
+                    name.textContent = location.Name;
+
+
+                    // City, State, Country with classes for filtering
+                    const city = document.createElement('p');
+                    if (location.City) {
+                        city.classList.add('location-city');
+                        city.textContent = `City: ${location.City}`;
+                    }
+
+                    const state = document.createElement('p');
+                    if (location.State) { // Check if State is not null, undefined, or empty string
+                        state.classList.add('location-state');
+                        state.textContent = `State: ${location.State}`;
+                        locationElement.appendChild(state); // Only append if State exists
+                    }
+
+                    const country = document.createElement('p');
+                    if (location.Country) {
+                        country.classList.add('location-country');
+                        country.textContent = `Country: ${location.Country}`;
+                    }
+
+                    // Phone, Email, Website Link
+                    const phone = document.createElement('a');
+                    if (location.Phone) {
+                        phone.textContent = `${location.Phone}`;
+                    }
+
+                    const email = document.createElement('a');
+                    if (location.Email) {
+                        email.href = 'mailto:${location.Email}';
+                        email.textContent = `${location.Email}`;
+                    }
+
+                    const websiteLink = document.createElement('a');
+                    if (location.Website) {
+                        websiteLink.href = `http://${location.Website}`;
+                        websiteLink.textContent = 'Visit Website';
+                        websiteLink.target = '_blank';
+                    }
+
+                    // Append all elements to the location item
+                    locationElement.append(name, city, state, country, phone, email, websiteLink);
+
+                    // Append location item to container
+                    locationsContainer.appendChild(locationElement);
+                });
+            }
+
+            // Function to filter locations based on search input
+            function filterLocations() {
+                const searchTerm = document.getElementById('searchInput').value.toLowerCase(); // Get user input and convert to lowercase
+
+                // If the search term is empty, display all locations
+                if (!searchTerm) {
+                    displayLocations(locations); // Show all locations if search term is empty
+                    return;
+                }
+
+                // Filter the locations based on the search term
+                const filteredLocations = locations.filter(location => {
+                    // Check if the search term matches the name, city, state, or country (case-insensitive)
+                    return location.Name.toLowerCase().includes(searchTerm) ||
+                    location.City.toLowerCase().includes(searchTerm);
+                });
+
+                // Update the displayed locations with the filtered results
+                displayLocations(filteredLocations);
+            }
+        </script>
+
+
+    </body>
+
+</html>
