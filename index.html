@@ -8,7 +8,7 @@
         <title>@Sea Directory</title>
 
         <!-- Link to custom stylesheet -->
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="./styles.css">
 
         <!-- Leaflet CSS -->
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
@@ -22,7 +22,7 @@
             let locations = [];
 
             function loadJSON() {
-                fetch('dir.json') // Fetch JSON data and ensure .json is found
+                fetch('./dir.json') // Fetch JSON data and ensure .json is found
                     .then(response => {
                         if (!response.ok) throw new Error('Network response was not ok');
                         return response.json();
@@ -52,7 +52,7 @@
 
         <!-- Header -->
         <header>
-            <img src="PMILogo.png" width="250" height="140">
+            <img src="./PMILogo.png" width="250" height="140">
             <h1>@SEA Directory</h1>
         </header>
 
@@ -84,7 +84,7 @@
 
                 // Custom icon for markers
                 let locationIcon = L.icon({
-                    iconUrl: 'GenericIcon.png',
+                    iconUrl: './GenericIcon.png',
                     iconSize: [32, 32],
                     iconAnchor: [16, 32],
                     popupAnchor: [0, -32]
@@ -113,14 +113,14 @@
 
                         if (location.PMI === true) {
                             locationIcon = L.icon({
-                                iconUrl: 'PMIicon.png',
+                                iconUrl: './PMIicon.png',
                                 iconSize: [32, 32],
                                 iconAnchor: [16, 32],
                                 popupAnchor: [0, -32]
                             });
                         } else {
                             locationIcon = L.icon({
-                                iconUrl: 'GenericIcon.png',
+                                iconUrl: './GenericIcon.png',
                                 iconSize: [32, 32],
                                 iconAnchor: [16, 32],
                                 popupAnchor: [0, -32]
@@ -186,7 +186,7 @@
                     iconImg.style.margin = '0 auto';
 
                     // Set the icon based on PMI status
-                    iconImg.src = location.PMI ? '/PMILogoSquare.png' : '/anchorIcon.png';
+                    iconImg.src = location.PMI ? './PMILogoSquare.png' : './anchorIcon.png';
 
                     // Append the iconImg  to locationElement
                         locationElement.appendChild(iconImg);
