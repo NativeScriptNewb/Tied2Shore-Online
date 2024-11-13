@@ -116,3 +116,9 @@ header {
     color: #555;
     font-size: 0.9rem;
 }
+
+.contactIcon {
+    height: 25px;
+    width: 25px;
+    padding-right: 10px;
+}
