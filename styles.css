@@ -3,6 +3,20 @@
     width: 100%;
 }
 
+/* Responsive behavior */
+@media (max-width: 768px) {
+    div.location-item {
+        width: 100%;
+        padding: 15px;
+    }
+    
+    .contactIcon {
+        height: 15px;
+        width: 15px;
+        padding-right: 15px;
+    }
+}
+
 /* General styling for links inside .location-item */
 .location-item a {
     display: block;
@@ -44,14 +58,6 @@ div.location-item {
 div.location-item:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* Responsive behavior */
-@media (max-width: 768px) {
-    div.location-item {
-        width: 100%;
-        padding: 15px;
-    }
 }
 
 /* Basic reset for body */
