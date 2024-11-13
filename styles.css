@@ -79,6 +79,7 @@ header {
 
 /* Container for search bar */
 .search-bar {
+    margin-top: 25;
     margin-bottom: 1.5rem;
     text-align: center;
 }
