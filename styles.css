@@ -1,3 +1,11 @@
+/* Responsive behavior */
+@media (max-width: 768px) {
+    div.location-item {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
 #map {
     height: 400px;
     width: 100%;
