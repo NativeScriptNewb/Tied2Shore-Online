@@ -223,6 +223,11 @@
                         phone.href = `tel:${location.Phone}`;
                         phone.textContent = `${location.Phone}`;
                     }
+                    const whatsapp = document.createElement('a');
+                    if (location.Whatsapp) {
+                        whatsapp.href = `https://wa.me/${location.Whatsapp}`;
+                        whatsapp.textContent = `WhatsApp`;
+                    }
 
                     const email = document.createElement('a');
                     if (location.Email) {
@@ -238,7 +243,7 @@
                     }
 
                     // Append all elements to the location item
-                    locationElement.append(name, city, state, country, phone, email, websiteLink);
+                    locationElement.append(name, city, state, country, phone, whatsapp, email, websiteLink);
 
                     // Append location item to container
                     locationsContainer.appendChild(locationElement);
