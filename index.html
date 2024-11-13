@@ -220,18 +220,19 @@
                     // Phone, Email, Website Link
                     const phone = document.createElement('a');
                     if (location.Phone) {
+                        phone.href = `tel:${location.Phone}`;
                         phone.textContent = `${location.Phone}`;
                     }
 
                     const email = document.createElement('a');
                     if (location.Email) {
-                        email.href = 'mailto:${location.Email}';
+                        email.href = `mailto:${location.Email}`;
                         email.textContent = `${location.Email}`;
                     }
 
                     const websiteLink = document.createElement('a');
                     if (location.Website) {
-                        websiteLink.href = `http://${location.Website}`;
+                        websiteLink.href = `${location.Website}`;
                         websiteLink.textContent = 'Visit Website';
                         websiteLink.target = '_blank';
                     }
