@@ -1,6 +1,7 @@
 #map {
     height: 400px;
     width: 100%;
+    margin-right: 30px;
 }
 
 /* Responsive behavior */
