@@ -85,6 +85,7 @@ header {
 }
 
 .search-bar input {
+    margin-top: 25;
     padding: 0.5rem;
     width: 300px;
     font-size: 1rem;
