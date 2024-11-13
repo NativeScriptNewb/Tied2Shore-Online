@@ -217,33 +217,79 @@
                         country.textContent = `Country: ${location.Country}`;
                     }
 
-                    // Phone, Email, Website Link
+                    // Phone container, icon, and number
+                    const phoneContainer = document.createElement('span');
+                    const phoneIcon = document.createElement('img');
                     const phone = document.createElement('a');
                     if (location.Phone) {
+                        phoneContainer.style.display = 'flex';
+                        phoneContainer.style.alignItems = 'center';
+                        phoneContainer.style.marginBottom = '10px';
+                        phoneIcon.classList.add('contactIcon');
+                        phoneIcon.src = './phoneIcon.png';
                         phone.href = `tel:${location.Phone}`;
                         phone.textContent = `${location.Phone}`;
+                        phoneContainer.appendChild(phoneIcon);
+                        phoneContainer.appendChild(phone);
                     }
-                    const whatsapp = document.createElement('a');
-                    if (location.Whatsapp) {
-                        whatsapp.href = `https://wa.me/${location.Whatsapp}`;
-                        whatsapp.textContent = `WhatsApp`;
-                    }
+                    
 
+                    // WhatsApp icon and number
+                    const waContainer = document.createElement('span');
+                    const waIcon = document.createElement('img');
+                    const wa = document.createElement('a');
+                    if (location.Whatsapp) {
+                        waContainer.style.display = 'flex';
+                        waContainer.style.alignItems = 'center';
+                        waContainer.style.marginBottom = '10px';
+                        waIcon.classList.add('contactIcon');
+                        waIcon.src = './waIcon.png';
+                        wa.href = `https://wa.me/${location.Whatsapp}`;
+                        wa.textContent = `${location.Whatsapp}`;
+                        waContainer.appendChild(waIcon);
+                        waContainer.appendChild(wa);
+                    }
+                    
+
+                    // Email icon and link
+                    const emailContainer = document.createElement('span');
+                    const emailIcon = document.createElement('img');
                     const email = document.createElement('a');
                     if (location.Email) {
+                        emailContainer.style.display = 'flex';
+                        emailContainer.style.alignItems = 'center';
+                        emailContainer.style.marginBottom = '10px';
+                        emailIcon.classList.add('contactIcon');
+                        emailIcon.src = './emailIcon.png';
                         email.href = `mailto:${location.Email}`;
-                        email.textContent = `${location.Email}`;
+                        email.textContent = `email`;
+                        emailContainer.appendChild(emailIcon);
+                        emailContainer.appendChild(email);
                     }
+                    
 
-                    const websiteLink = document.createElement('a');
+                    // Web icon and link
+                    const webContainer = document.createElement('span');
+                    const webIcon = document.createElement('img');
+                    const web = document.createElement('a');
                     if (location.Website) {
-                        websiteLink.href = `http://${location.Website}`;
-                        websiteLink.textContent = 'Visit Website';
-                        websiteLink.target = '_blank';
+                        webContainer.style.display = 'flex';
+                        webContainer.style.alignItems = 'center';
+                        webContainer.style.marginBottom = '10px';
+                        webIcon.classList.add('contactIcon');
+                        webIcon.src = './webIcon.png';
+                        web.href =  `http://${location.Website}`
+                        web.textContent = 'Visit Website';
+                        web.target = '_blank';
+                        webContainer.appendChild(webIcon);
+                        webContainer.appendChild(web);
                     }
+                    
+
 
                     // Append all elements to the location item
-                    locationElement.append(name, city, state, country, phone, whatsapp, email, websiteLink);
+                    locationElement.append(name, city, state, country, phoneContainer, waContainer,
+                    emailContainer, webContainer);
 
                     // Append location item to container
                     locationsContainer.appendChild(locationElement);
