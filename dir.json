@@ -1059,6 +1059,22 @@
         "PMI": false
       },
       {
+        "Name": "Seafarers' Christian Friends Society, Bremerhaven",
+        "Coordinates": [
+          53.541519,
+          8.581137
+        ],
+        "City": "Bremerhaven",
+        "State": null,
+        "Country": "Germany",
+        "Zip": null,
+        "Website": "dmgint.de",
+        "Email": "office@bremenports.de",
+        "Phone": "+49 7265 959100",
+        "Whatsapp": "+491777397938",
+        "PMI": true
+      },
+      {
         "Name": "Seafarers' Ministry of the Golden Gate",
         "Coordinates": [
           37.80934,
