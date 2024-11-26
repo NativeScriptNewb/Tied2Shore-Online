@@ -52,7 +52,7 @@
 
         <!-- Header -->
         <header>
-            <img src="./PMILogo.png" width="167" height="94">
+            <img src="./pmiLogo.png" width="167" height="94">
             <!-- <h1>@SEA Directory</h1> -->
         </header>
 
@@ -84,7 +84,7 @@
 
                 // Custom icon for markers
                 let locationIcon = L.icon({
-                    iconUrl: './GenericIcon.png',
+                    iconUrl: './genericIcon.png',
                     iconSize: [32, 32],
                     iconAnchor: [16, 32],
                     popupAnchor: [0, -32]
@@ -100,7 +100,7 @@
 
                     // Filter locations based on map bounds
                     const visibleLocations = locationsToDisplay.filter(location => {
-                        const latLng = L.latLng(location.Coordinates); // Create a LatLng object
+                        const latLng = L.latLng(location.coordinates); // Create a LatLng object
                         return bounds.contains(latLng); // Check if the location is within the bounds
                     });
 
@@ -109,30 +109,30 @@
 
                 // Add markers for each location on the map
                 locations.forEach(location => {
-                    if (location.Coordinates) {
+                    if (location.coordinates) {
 
-                        if (location.PMI === true) {
+                        if (location.pmi === true) {
                             locationIcon = L.icon({
-                                iconUrl: './PMIicon.png',
+                                iconUrl: './pmiIcon.png',
                                 iconSize: [32, 32],
                                 iconAnchor: [16, 32],
                                 popupAnchor: [0, -32]
                             });
                         } else {
                             locationIcon = L.icon({
-                                iconUrl: './GenericIcon.png',
+                                iconUrl: './genericIcon.png',
                                 iconSize: [32, 32],
                                 iconAnchor: [16, 32],
                                 popupAnchor: [0, -32]
                             })
                         }
 
-                        const marker = L.marker(location.Coordinates, {
+                        const marker = L.marker(location.coordinates, {
                             icon: locationIcon
                         }).addTo(map);
 
                         // Popup Content for each marker
-                        marker.bindPopup(`<b>${location.Name}</b><br>${location.Country}`)
+                        marker.bindPopup(`<b>${location.name}</b><br>${location.country}`)
 
                     // Update list to reflect only selected location
                     .on('popupopen', () => {
@@ -186,49 +186,69 @@
                     iconImg.style.margin = '0 auto';
 
                     // Set the icon based on PMI status
-                    iconImg.src = location.PMI ? './PMILogoSquare.png' : './anchorIcon.png';
+                    iconImg.src = location.pmi ? './pmiLogoSquare.png' : './anchorIcon.png';
 
                     // Append the iconImg  to locationElement
                         locationElement.appendChild(iconImg);
 
 
-                    // Name of the location
+                    // name of the location
                     const name = document.createElement('h3');
-                    name.textContent = location.Name;
+                    name.textContent = location.name;
+
+                    // Debugging for location.whatever
+                    console.log(location.name);
 
 
                     // City, State, Country with classes for filtering
                     const city = document.createElement('p');
-                    if (location.City) {
+                    if (location.city) {
                         city.classList.add('location-city');
-                        city.textContent = `City: ${location.City}`;
+                        city.textContent = `City: ${location.city}`;
                     }
 
                     const state = document.createElement('p');
-                    if (location.State) { // Check if State is not null, undefined, or empty string
+                    if (location.state) { // Check if state is not null, undefined, or empty string
                         state.classList.add('location-state');
-                        state.textContent = `State: ${location.State}`;
-                        locationElement.appendChild(state); // Only append if State exists
+                        state.textContent = `State: ${location.state}`;
+                        locationElement.appendChild(state); // Only append if state exists
                     }
 
                     const country = document.createElement('p');
-                    if (location.Country) {
+                    if (location.country) {
                         country.classList.add('location-country');
-                        country.textContent = `Country: ${location.Country}`;
+                        country.textContent = `Country: ${location.country}`;
                     }
+
+                    // Google Map Button for PMI sites
+                    const gmapContainer = document.createElement('span');
+                    const gmapIcon = document.createElement('img');
+                    const gmap = document.createElement('a');
+                    if (location.gmap) {
+                        gmapContainer.style.display = 'flex';
+                        gmapContainer.style.alignItems = 'center';
+                        gmapContainer.style.marginBottom = '10px';
+                        gmapIcon.classList.add('contactIcon');
+                        gmapIcon.src = './gmapIcon.png';
+                        gmap.href = `https://maps.app.goo.gl/${location.gmap}`;
+                        gmap.textContent = `Google Maps`;
+                        gmapContainer.appendChild(gmapIcon);
+                        gmapContainer.appendChild(gmap);
+                    }
+
 
                     // Phone container, icon, and number
                     const phoneContainer = document.createElement('span');
                     const phoneIcon = document.createElement('img');
                     const phone = document.createElement('a');
-                    if (location.Phone) {
+                    if (location.phone) {
                         phoneContainer.style.display = 'flex';
                         phoneContainer.style.alignItems = 'center';
                         phoneContainer.style.marginBottom = '10px';
                         phoneIcon.classList.add('contactIcon');
                         phoneIcon.src = './phoneIcon.png';
-                        phone.href = `tel:${location.Phone}`;
-                        phone.textContent = `${location.Phone}`;
+                        phone.href = `tel:${location.phone}`;
+                        phone.textContent = `${location.phone}`;
                         phoneContainer.appendChild(phoneIcon);
                         phoneContainer.appendChild(phone);
                     }
@@ -238,14 +258,14 @@
                     const waContainer = document.createElement('span');
                     const waIcon = document.createElement('img');
                     const wa = document.createElement('a');
-                    if (location.Whatsapp) {
+                    if (location.whatsapp) {
                         waContainer.style.display = 'flex';
                         waContainer.style.alignItems = 'center';
                         waContainer.style.marginBottom = '10px';
                         waIcon.classList.add('contactIcon');
                         waIcon.src = './waIcon.png';
-                        wa.href = `https://wa.me/${location.Whatsapp}`;
-                        wa.textContent = `${location.Whatsapp}`;
+                        wa.href = `https://wa.me/${location.whatsapp}`;
+                        wa.textContent = `${location.whatsapp}`;
                         waContainer.appendChild(waIcon);
                         waContainer.appendChild(wa);
                     }
@@ -255,13 +275,13 @@
                     const emailContainer = document.createElement('span');
                     const emailIcon = document.createElement('img');
                     const email = document.createElement('a');
-                    if (location.Email) {
+                    if (location.email) {
                         emailContainer.style.display = 'flex';
                         emailContainer.style.alignItems = 'center';
                         emailContainer.style.marginBottom = '10px';
                         emailIcon.classList.add('contactIcon');
                         emailIcon.src = './emailIcon.png';
-                        email.href = `mailto:${location.Email}`;
+                        email.href = `mailto:${location.email}`;
                         email.textContent = `Email`;
                         emailContainer.appendChild(emailIcon);
                         emailContainer.appendChild(email);
@@ -272,13 +292,13 @@
                     const webContainer = document.createElement('span');
                     const webIcon = document.createElement('img');
                     const web = document.createElement('a');
-                    if (location.Website) {
+                    if (location.website) {
                         webContainer.style.display = 'flex';
                         webContainer.style.alignItems = 'center';
                         webContainer.style.marginBottom = '10px';
                         webIcon.classList.add('contactIcon');
                         webIcon.src = './webIcon.png';
-                        web.href =  `http://${location.Website}`
+                        web.href =  `http://${location.website}`
                         web.textContent = 'Visit Website';
                         web.target = '_blank';
                         webContainer.appendChild(webIcon);
@@ -288,7 +308,7 @@
 
 
                     // Append all elements to the location item
-                    locationElement.append(name, city, state, country, phoneContainer, waContainer,
+                    locationElement.append(name, city, state, country, gmapContainer, phoneContainer, waContainer,
                     emailContainer, webContainer);
 
                     // Append location item to container
@@ -309,8 +329,8 @@
                 // Filter the locations based on the search term
                 const filteredLocations = locations.filter(location => {
                     // Check if the search term matches the name, city, state, or country (case-insensitive)
-                    return location.Name.toLowerCase().includes(searchTerm) ||
-                    location.City.toLowerCase().includes(searchTerm);
+                    return location.name.toLowerCase().includes(searchTerm) ||
+                    location.city.toLowerCase().includes(searchTerm);
                 });
 
                 // Update the displayed locations with the filtered results
