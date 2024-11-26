@@ -3,8 +3,8 @@
     {
       "name": "Anchor House",
       "coordinates": [
-        27.53059,
-        -82.57319
+        27.635992506350526,
+        -82.55758824612604
       ],
       "city": "Palmetto",
       "state": "Florida",
@@ -14,7 +14,8 @@
       "email": "chaplain@anchorhousemission.com",
       "phone": "1 941-713-2196",
       "whatsapp": null,
-      "pmi": true
+      "pmi": true,
+      "gmap": "heWZ2u9RQMeVZtcn8"
     },
     {
       "name": "Auckland Seafarers' Centre",
@@ -35,18 +36,19 @@
     {
       "name": "Baltimore Baptist Port Ministry",
       "coordinates": [
-        39.266272,
-        -76.583548
+        39.26646289945957,
+        -76.5834727014867
       ],
       "city": "Baltimore",
       "state": "Maryland",
       "country": "United States",
       "zip": null,
-      "website": null,
+      "website": "baltseafarers.org",
       "email": "bbaportministry@gmail.com",
-      "phone": "+1-410-685-1240",
+      "phone": "+1-443-468-6220",
       "whatsapp": null,
-      "pmi": true
+      "pmi": true,
+      "gmap": "RAiETS4D9khERvTP6"
     },
     {
       "name": "Bermuda Sailors' Home",
@@ -67,18 +69,19 @@
     {
       "name": "Canaveral Port Ministry",
       "coordinates": [
-        28.39000,
-        -80.60715
+        28.403715884151808,
+        -80.60403130007408
       ],
       "city": "Cape Canaveral",
       "state": "Florida",
       "country": "United States",
-      "zip": null,
+      "zip": 32920,
       "website": "www.cpm.life/contact-us",
       "email": "info@cpm.life",
       "phone": "+1-321-783-0007",
       "whatsapp": null,
-      "pmi": true
+      "pmi": true,
+      "gmap": "ZBbSQBAeoYXrduZ59"
     },
     {
       "name": "Cape Town Seafarers' Centre",
@@ -247,8 +250,8 @@
     {
       "name": "International Seafarer's Ministry of Miami",
       "coordinates": [
-        25.777972,
-        -80.175707
+        25.77811983494722,
+        -80.17587243584903
       ],
       "city": "Miami",
       "state": "Florida",
@@ -258,7 +261,8 @@
       "email": "pastorvasiley@ismportmiami.org",
       "phone": "+1-305-390-7424",
       "whatsapp": null,
-      "pmi": true
+      "pmi": true,
+      "gmap": "Wn3UCEoS5GfykucQA"
     },
     {
       "name": "International Seafarers Center, Pascagoula",
@@ -335,8 +339,24 @@
       "country": "United States",
       "zip": 46368,
       "website": null,
-      "email": "mwbmwiba2@gmail.com",
+      "email": "mwbnwiba@juno.com",
       "phone": "+1-219-201-2273",
+      "whatsapp": null,
+      "pmi": true
+    },
+    {
+      "name": "International Seafarers Ministry",
+      "coordinates": [
+        32.799682,
+        -79.929996
+      ],
+      "city": "North Charleston",
+      "state": "South Carolina",
+      "country": "United States",
+      "zip": 29415,
+      "website": "internationalseafarersministry.net",
+      "email": "petros555@hotmail.com",
+      "phone": "+1-843-554-6695",
       "whatsapp": null,
       "pmi": true
     },
@@ -439,8 +459,8 @@
     {
       "name": "Maritime Bethel Savannah",
       "coordinates": [
-        32.120018,
-        -81.150201
+        32.12093576342942,
+        -81.15018858829389
       ],
       "city": "Savannah",
       "state": "Georgia",
@@ -450,7 +470,8 @@
       "email": "info@maritimebethelsavannah.org",
       "phone": "+1-912-201-1099",
       "whatsapp": null,
-      "pmi": true
+      "pmi": true,
+      "gmap": "PC82McKudPqLexjZ7"
     },
     {
       "name": "Ministry to Seafarers",
@@ -823,8 +844,8 @@
     {
       "name": "Portsmouth Seafarers' Center",
       "coordinates": [
-        36.836990,
-        -76.326350
+        36.83708495225557,
+        -76.32617616467762
       ],
       "city": "Portsmouth",
       "state": "Virginia",
@@ -965,12 +986,12 @@
       "pmi": false
     },
     {
-      "name": "Seafarer's Ministry, Port of Fernandino",
+      "name": "Seafarer's Ministry, Port of Fernandina",
       "coordinates": [
         30.676087,
         -81.463955
       ],
-      "city": "Fernandino",
+      "city": "Fernandina",
       "state": "Florida",
       "country": "United States",
       "zip": null,
@@ -1061,7 +1082,7 @@
       "pmi": false
     },
     {
-      "name": "Seafarers' Christian Friends Society, Bremerhaven",
+      "name": "DMG Interpersonal",
       "coordinates": [
         53.541519,
         8.581137
@@ -1143,13 +1164,13 @@
     {
       "name": "Ship to Shore Regions Beyond International, Theodore",
       "coordinates": [
-        30.426827,
-        -88.741806
+        30.42701294782255,
+        -88.74194544787672
       ],
       "city": "Oceansprings",
       "state": "Mississippi",
       "country": "United States",
-      "zip": null,
+      "zip": 39564,
       "website": null,
       "email": "cecilafayard@msn.com",
       "phone": "+1-662-417-6089",
@@ -1358,18 +1379,19 @@
       "city": "Tacoma",
       "state": "Washington",
       "country": "United States",
-      "zip": null,
-      "website": "www.tacomaseafarers.com/",
-      "email": "paultsc@yahoo.com",
+      "zip": 98421,
+      "website": "facebook.com/TacomaSeafarersCenter/",
+      "email": "center@tacomaseafarers.org",
       "phone": "+1-253-272-0716",
       "whatsapp": null,
-      "pmi": true
+      "pmi": true,
+      "gmap": "xLXNh1bPbTupqEZS6"
     },
     {
       "name": "Tampa Port Ministries",
       "coordinates": [
-        27.945818,
-        -82.444154
+        27.923488428734668,
+        -82.44579175960989
       ],
       "city": "Tampa",
       "state": "Florida",
@@ -1379,7 +1401,8 @@
       "email": "SteveFinnesy@gmail.com",
       "phone": "+1-813-247-5273",
       "whatsapp": null,
-      "pmi": true
+      "pmi": true,
+      "gmap": "RG3RDb8L7jX6M1jJA"
     },
     {
       "name": "Tampa Seafarers' Center",
@@ -1432,8 +1455,8 @@
     {
       "name": "Texas Port Ministries, Freeport",
       "coordinates": [
-        28.940550,
-        -95.351622
+        28.9404057551689,
+        -95.3507497037524
       ],
       "city": "Freeport",
       "state": "Texas",
@@ -1443,7 +1466,8 @@
       "email": "info@texasportministry.org",
       "phone": "+1-979-233-5641",
       "whatsapp": null,
-      "pmi": true
+      "pmi": true,
+      "gmap": "hJVfnGpd5D4NosgE9"
     },
     {
       "name": "The Mariners' Church of Detroit",
