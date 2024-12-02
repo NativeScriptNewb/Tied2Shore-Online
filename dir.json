@@ -10,9 +10,9 @@
       "state": "Florida",
       "country": "United States",
       "zip": null,
-      "website": "anchorhousemission.com/",
+      "website": "anchorhousemission.com",
       "email": "chaplain@anchorhousemission.com",
-      "phone": "1 941-713-2196",
+      "phone": "+1-941-713-2196",
       "whatsapp": null,
       "pmi": true,
       "gmap": "heWZ2u9RQMeVZtcn8"
@@ -34,7 +34,7 @@
       "pmi": false
     },
     {
-      "name": "Baltimore Baptist Port Ministry",
+      "name": "Baltimore International Seafarers' Center",
       "coordinates": [
         39.26646289945957,
         -76.5834727014867
@@ -62,7 +62,7 @@
       "zip": null,
       "website": null,
       "email": "bermudasailorshome@gmail.com",
-      "phone": "1 441-295-5598",
+      "phone": "+1-441-295-5598",
       "whatsapp": null,
       "pmi": false
     },
@@ -96,6 +96,22 @@
       "website": "seafarers.org.za/",
       "email": "info@seafarers.org.za",
       "phone": "+27 21 419 1007",
+      "whatsapp": null,
+      "pmi": false
+    },
+    {
+      "name": "Center for International Seamen and Truckers",
+      "coordinates": [
+        30.364929966005796,
+        -89.0943785749236
+      ],
+      "city": "Gulfport",
+      "state": "Mississippi",
+      "country": "United States",
+      "zip": null,
+      "website": null,
+      "email": "gulfportseamencenter@gmail.com",
+      "phone": "+1-228-868-2525",
       "whatsapp": null,
       "pmi": false
     },
@@ -209,9 +225,9 @@
       "state": "California",
       "country": "United States",
       "zip": null,
-      "website": "huenemechamber.com/directory-listing/international-mariners-center/",
+      "website": null,
       "email": "intlmariners@verizon.net",
-      "phone": "(805) 271-5161",
+      "phone": "+1-805-271-5161",
       "whatsapp": null,
       "pmi": false
     },
@@ -241,9 +257,9 @@
       "state": "British Columbia",
       "country": "Canada",
       "zip": null,
-      "website": "sailorssociety.ca/",
+      "website": "sailorssociety.ca",
       "email": "bonnie@cosbc.ca",
-      "phone": "(604) 681-2351",
+      "phone": "+1-604-681-2351",
       "whatsapp": null,
       "pmi": false
     },
@@ -292,7 +308,24 @@
       "zip": null,
       "website": "iscpolb-la.org/",
       "email": "rbmac63@gmail.com",
-      "phone": "(310) 831-2756",
+      "phone": "+1-310-831-2756",
+      "whatsapp": null,
+      "pmi": false,
+      "gmap": "gowniUjg198h5PAfA"
+    },
+    {
+      "name": "International Seafarers' Center",
+      "coordinates": [
+        31.133249327465986,
+        -81.48988584782431
+      ],
+      "city": "Brunswick",
+      "state": "Virginia",
+      "country": "United States",
+      "zip": null,
+      "website": "seafarerscenter.org",
+      "email": "info@seafarerscenter.org",
+      "phone": "+1-912-267-0631",
       "whatsapp": null,
       "pmi": false
     },
@@ -409,7 +442,7 @@
       "pmi": false
     },
     {
-      "name": "Lutheran Maritime Ministry / International Seafarers' Center",
+      "name": "Lutheran Maritime Ministry",
       "coordinates": [
         33.75557,
         -118.21849
@@ -420,7 +453,7 @@
       "zip": null,
       "website": "lmmsocal.com/",
       "email": "shekhar01@gmail.com",
-      "phone": "562-209-1577",
+      "phone": "+1-562-209-1577",
       "whatsapp": null,
       "pmi": false
     },
@@ -439,6 +472,23 @@
       "phone": "(313) 259-3200",
       "whatsapp": null,
       "pmi": false
+    },
+    {
+      "name": "Mariner's House",
+      "coordinates": [
+        42.3639654170636,
+        -71.0536732185097
+      ],
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States",
+      "zip": "02113",
+      "website": "marinershouse.org",
+      "email": "jsorrentino@marinershouse.org",
+      "phone": "+1-617-227-3979",
+      "whatsapp": null,
+      "pmi": false,
+      "gmap": "1EVsHoJf1X8FkfHR6"
     },
     {
       "name": "Mariners' House",
@@ -501,7 +551,7 @@
       "zip": null,
       "website": "missiontoseafarers.org/vancouver",
       "email": "m2svancouver@gmail.com",
-      "phone": "(604) 253-4421",
+      "phone": "+1-604-253-4421",
       "whatsapp": null,
       "pmi": false
     },
@@ -698,6 +748,23 @@
       "pmi": true
     },
     {
+      "name": "New England Seafarers' Mission",
+      "coordinates": [
+        42.34398394724863,
+        -71.03154840076398
+      ],
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States",
+      "zip": "02210",
+      "website": "neseafarers.org",
+      "email": "scushing@neseafarers.org",
+      "phone": "1-617-443-0282",
+      "whatsapp": null,
+      "pmi": false,
+      "gmap": "EvnUCn58BpE8HJwm8"
+    },
+    {
       "name": "Port of Callao Seafarers' Centre",
       "coordinates": [
         -12.05997,
@@ -803,9 +870,9 @@
       "state": "Florida",
       "country": "United States",
       "zip": null,
-      "website": "palmbeachseafarerscenter.org/",
+      "website": "palmbeachseafarerscenter.org",
       "email": "pbseafarers@gmail.com",
-      "phone": "(561) 480-4806",
+      "phone": "+1-561-480-4806",
       "whatsapp": null,
       "pmi": false
     },
@@ -924,16 +991,16 @@
     {
       "name": "Saint John Seafarers' Mission",
       "coordinates": [
-        45.2711,
-        -64.7419
+        45.26162669859324,
+        -66.07360546069563
       ],
       "city": "Saint John",
       "state": "New Brunswick",
       "country": "Canada",
       "zip": "E2M 5Y1",
-      "website": "sjseafarers.com/",
-      "email": "ebphinn@gmail.com",
-      "phone": "(506) 643-0799",
+      "website": "sjseafarers.com",
+      "email": "seaf@nb.aibn.com",
+      "phone": "+1-506-635-1731",
       "whatsapp": null,
       "pmi": false
     },
@@ -970,6 +1037,22 @@
       "pmi": true
     },
     {
+      "name": "Seafarer's Friend",
+      "coordinates": [
+        42.38714993238959,
+        -71.04383093015417
+      ],
+      "city": "Chelsea",
+      "state": "Massachusetts",
+      "country": "United States",
+      "zip": "02150",
+      "website": "www.seafarersfriend.org",
+      "email": "director@seafarersfriend.org",
+      "phone": "+1-617-889-3222",
+      "whatsapp": null,
+      "pmi": true
+    },
+    {
       "name": "Seafarer's House, Inc.",
       "coordinates": [
         26.12072,
@@ -979,9 +1062,9 @@
       "state": "Florida",
       "country": "United States",
       "zip": null,
-      "website": "seafarershouse.org/",
+      "website": null,
       "email": "info@seafarershouse.org",
-      "phone": "(954) 734-1580",
+      "phone": "+1-954-734-1580",
       "whatsapp": null,
       "pmi": false
     },
@@ -1013,7 +1096,7 @@
       "zip": null,
       "website": "sihnyc.org/",
       "email": "port-mission@sihnyc.org",
-      "phone": "1 (203) 543-7031",
+      "phone": "+1-203-543-7031",
       "whatsapp": null,
       "pmi": false
     },
@@ -1100,18 +1183,19 @@
     {
       "name": "Seafarers' Ministry of the Golden Gate",
       "coordinates": [
-        37.80934,
-        -122.27091
+        37.8062950670497,
+        -122.33230113036473
       ],
       "city": "Oakland",
       "state": "California",
       "country": "United States",
       "zip": null,
-      "website": "smgg.org/",
+      "website": "smgg.org",
       "email": "rawhiipsr@gmail.com",
       "phone": "+1-510-839-2226",
       "whatsapp": null,
-      "pmi": true
+      "pmi": true,
+      "gmap": "5siW8VvmKgvZsTuF6"
     },
     {
       "name": "Seafarers' Mission Prince Rupert",
@@ -1157,7 +1241,7 @@
       "zip": "19801",
       "website": null,
       "email": "scw@scwde.org",
-      "phone": "1 (302) 575-1300",
+      "phone": "+1-302-575-1300",
       "whatsapp": null,
       "pmi": false
     },
@@ -1219,25 +1303,9 @@
       "state": "British Columbia",
       "country": "Canada",
       "zip": null,
-      "website": "rcav.org/seafarers/",
+      "website": null,
       "email": "dathaide@rcav.org",
-      "phone": "(604) 817-6370",
-      "whatsapp": null,
-      "pmi": false
-    },
-    {
-      "name": "Stella Maris",
-      "coordinates": [
-        49.2807,
-        -123.1077
-      ],
-      "city": "Vancouver",
-      "state": "British Columbia",
-      "country": "Canada",
-      "zip": "V6A 4G9",
-      "website": "rcav.org/seafarers/",
-      "email": "dathaide@rcav.org",
-      "phone": "(604) 817-6370",
+      "phone": "+1-604-817-6370",
       "whatsapp": null,
       "pmi": false
     },
@@ -1295,19 +1363,51 @@
         29.975352,
         -90.390458
       ],
-      "Address": "14538 River Road",
       "city": "Destrehan",
       "state": "Louisiana",
       "country": "United States",
       "zip": 70047,
-      "website": null,
+      "website": "nolacatholic.org/stella-maris-maritime-center-west",
       "email": "stellamaris@archdiocese-no.org",
       "phone": "+1-985-307-0601",
       "whatsapp": "+15049055975",
       "pmi": false
     },
+
     {
-      "name": "Stella Maris (Apostleship of the Sea)",
+      "name": "Stella Maris",
+      "coordinates": [
+        39.25675625455063,
+        -76.52192214749019
+      ],
+      "city": "Dundulk",
+      "state": "Maryland",
+      "country": "United States",
+      "zip": 70047,
+      "website": null,
+      "email": "andrew.middleton@archbalt.org",
+      "phone": "+1-443-690-2447",
+      "whatsapp": null,
+      "pmi": false
+    },
+
+    {
+      "name": "Stella Maris",
+      "coordinates": [
+        30.218658, -93.259700
+      ],
+      "city": "Lakes Charles",
+      "state": "Louisiana",
+      "country": "United States",
+      "zip": 70601,
+      "website": "olpssulphur.com/seafarers-center",
+      "email": "stella.maris@lcdiocese.org",
+      "phone": "+1-337-436-1315",
+      "whatsapp": null,
+      "pmi": false
+    },
+    {
+      "name": "Stella Maris",
       "coordinates": [
         30.69537,
         -88.04046
@@ -1318,12 +1418,12 @@
       "zip": null,
       "website": null,
       "email": "jarcher3696@sbcglobal.net",
-      "phone": "(251) 432-7339",
+      "phone": "+1-251-432-7339",
       "whatsapp": null,
       "pmi": false
     },
     {
-      "name": "Stella Maris Diocese of St. Augustine",
+      "name": "Stella Maris",
       "coordinates": [
         30.26538,
         -81.51431
@@ -1334,7 +1434,7 @@
       "zip": null,
       "website": "dosafl.com/ministries/stella-maris-seafarers-ministry/",
       "email": "mvega@dosafl.com",
-      "phone": "(904) 613-3489",
+      "phone": "+1-904-613-3489",
       "whatsapp": null,
       "pmi": false
     },
@@ -1437,22 +1537,6 @@
       "pmi": false
     },
     {
-      "name": "TEST CASE",
-      "coordinates": [
-        36.836990,
-        -76.326350
-      ],
-      "city": "Portsmouth",
-      "state": "Virginia",
-      "country": "United States",
-      "zip": "23704",
-      "website": "facebook.com/PortsmouthSeafarersCenter",
-      "email": null,
-      "phone": "+1-757-967-7696",
-      "whatsapp": null,
-      "pmi": true
-    },
-    {
       "name": "Texas Port Ministries, Freeport",
       "coordinates": [
         28.9404057551689,
@@ -1543,12 +1627,13 @@
       "state": "Texas",
       "country": "United States",
       "zip": null,
-      "website": "seafarerscenter.org/",
-      "email": "info@seafarerscenter.org",
-      "phone": "(409) 763-6096",
+      "website": "archgh.org/offices-ministries/clergy-formation-chaplaincy-services/port-ministry/",
+      "email": "manager@galvestonseafarerscenter.org",
+      "phone": "+1-281-788-8158",
       "whatsapp": null,
       "pmi": false
     },
+     
     {
       "name": "The Seafarers' Centre in Newcastle",
       "coordinates": [
@@ -1614,7 +1699,7 @@
       "pmi": false
     },
     {
-      "name": "Vancouver Ministry to Seafarers",
+      "name": "Ministry to Seafarers",
       "coordinates": [
         49.28506,
         -123.14249
@@ -1623,9 +1708,9 @@
       "state": "British Columbia",
       "country": "Canada",
       "zip": null,
-      "website": "ministrytoseafarers.com/",
+      "website": "ministrytoseafarers.com",
       "email": "crcvanportchaplain@gmail.com",
-      "phone": "(604) 817-6370",
+      "phone": "+1-604-817-6370",
       "whatsapp": null,
       "pmi": false
     },
