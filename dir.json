@@ -9,11 +9,9 @@
       "city": "Palmetto",
       "state": "Florida",
       "country": "United States",
-      "zip": null,
       "website": "anchorhousemission.com",
       "email": "chaplain@anchorhousemission.com",
       "phone": "+1-941-713-2196",
-      "whatsapp": null,
       "pmi": true,
       "gmap": "heWZ2u9RQMeVZtcn8"
     },
@@ -26,12 +24,9 @@
       "city": "Auckland",
       "state": "New Zealand",
       "country": "New Zealand",
-      "zip": null,
       "website": "aucklandseafarerscentre.org.nz/",
       "email": "info@aucklandseafarerscentre.org.nz",
-      "phone": "+64 9 373 5717",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+64 9 373 5717"
     },
     {
       "name": "Baltimore International Seafarers' Center",
@@ -42,11 +37,9 @@
       "city": "Baltimore",
       "state": "Maryland",
       "country": "United States",
-      "zip": null,
       "website": "baltseafarers.org",
       "email": "bbaportministry@gmail.com",
       "phone": "+1-443-468-6220",
-      "whatsapp": null,
       "pmi": true,
       "gmap": "RAiETS4D9khERvTP6"
     },
@@ -59,12 +52,8 @@
       "city": "Pembroke",
       "state": "HM Bermuda",
       "country": "Bermuda",
-      "zip": null,
-      "website": null,
       "email": "bermudasailorshome@gmail.com",
-      "phone": "+1-441-295-5598",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+1-441-295-5598"
     },
     {
       "name": "Canaveral Port Ministry",
@@ -75,11 +64,9 @@
       "city": "Cape Canaveral",
       "state": "Florida",
       "country": "United States",
-      "zip": 32920,
       "website": "cpm.life/contact-us",
       "email": "info@cpm.life",
       "phone": "+1-321-783-0007",
-      "whatsapp": null,
       "pmi": true,
       "gmap": "ZBbSQBAeoYXrduZ59"
     },
@@ -92,12 +79,9 @@
       "city": "Cape Town",
       "state": "Western Cape",
       "country": "South Africa",
-      "zip": null,
       "website": "seafarers.org.za/",
       "email": "info@seafarers.org.za",
-      "phone": "+27 21 419 1007",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+27 21 419 1007"
     },
     {
       "name": "Center for International Seamen and Truckers",
@@ -108,12 +92,49 @@
       "city": "Gulfport",
       "state": "Mississippi",
       "country": "United States",
-      "zip": null,
-      "website": null,
+      
       "email": "gulfportseamencenter@gmail.com",
-      "phone": "+1-228-868-2525",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+1-228-868-2525"
+    },
+    {
+      "name": "Charleston Port & Seafarers Society",
+      "coordinates": [
+        32.83350043940764,
+        -79.88268698193234
+      ],
+      "city": "Charleston",
+      "state": "South Carolina",
+      "country": "United States",
+      "website": "charlestonseafarers.org/",
+      "email": "chapssmail@gmail.com",
+      "phone": "+1-843-984-6116",
+      "gmap": "a669BA6fqiGzhMaY6"
+    },
+    {
+      "name": "Cleveland Seamen's Service",
+      "coordinates": [
+        41.50628963366219,
+        -81.70183238971525
+      ],
+      "city": "Cleveland",
+      "state": "Ohio",
+      "country": "United States",
+      "email": "seamensservicecle@hotmail.com",
+      "phone": "+1-216-621-4107"
+    },
+    {
+      "name": "Corpus Christi Seafarers' Center",
+      "coordinates": [
+        27.805638285503182,
+        -97.39638285152735
+      ],
+      "city": "Corpus Christi",
+      "state": "Texas",
+      "country": "United States",
+      "website": "corpuschristiseamenscenter.org/about",
+      "email": "seamensservicecle@hotmail.com",
+      "phone": "+1-361-883-8405",
+      "gmap": "5JoNbX5mtro9MPtT6"
     },
     {
       "name": "Dover Seafarers' Centre",
@@ -124,28 +145,36 @@
       "city": "Dover",
       "state": "England",
       "country": "United Kingdom",
-      "zip": null,
       "website": "seafarerscentre.org/",
       "email": "info@seafarerscentre.org",
-      "phone": "+44 1304 204125",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+44 1304 204125"
     },
     {
       "name": "Foyer des marins Seamen's Club",
       "coordinates": [
-        46.3461,
-        -72.5551
+        46.332530622500705,
+        -72.5492162606407
       ],
       "city": "Trois-Rivières",
       "state": "Quebec",
       "country": "Canada",
-      "zip": "G9A 2V7",
-      "website": "porttr.com/en/community/seamens-club/",
+      "website": "porttr.com/en/community/seamens-club",
       "email": "foyerdesmarins@gmail.com",
-      "phone": "(819) 378-2887",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+1-819-737-7187",
+      "gmap": "hY4FeEZKsiU3skZ5A"
+    },
+    {
+      "name": "Fort Vancouver Seafarers Center",
+      "coordinates": [
+        45.64235390429584,
+        -122.71272000300534
+      ],
+      "city": "Fort Vancouver",
+      "state": "Washington",
+      "country": "United States",
+      "email": "fvseafarers@gmail.com",
+      "phone": "+1-503-314-5913",
+      "gmap": "TSB7UW3CfhiUf5556"
     },
     {
       "name": "Global Maritime Ministries, New Orleans",
@@ -156,7 +185,6 @@
       "city": "New Orleans",
       "state": "Louisiana",
       "country": "United States",
-      "zip": 70075,
       "website": "portministry.com",
       "email": "info@portministry.com",
       "phone": "+1-504-895-2028",
@@ -174,7 +202,6 @@
       "city": "Reserve",
       "state": "Louisiana",
       "country": "United States",
-      "zip": 70084,
       "website": "portministry.com",
       "email": "info@portministry.com",
       "phone": "+1-985-210-5953",
@@ -191,9 +218,7 @@
       "Address": "1411 Weber City Rd.",
       "city": "Gonzales",
       "state": "Louisiana",
-      "zip": 70737,
       "country": "United States",
-      "website": null,
       "email": "gonzalesseafarerscenter@yahoo.com",
       "phone": "+1-985-210-5953",
       "whatsapp": "+12254027057",
@@ -206,14 +231,24 @@
         114.15815
       ],
       "city": "Hong Kong",
-      "state": null,
       "country": "Hong Kong",
-      "zip": null,
       "website": "hkseamen.org.hk/",
       "email": "seamen@hkseamen.org.hk",
-      "phone": "+852 2385 6022",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+852 2385 6022"
+    },
+    {
+      "name": "Houston International Seafarers' Center",
+      "coordinates": [
+        29.729068959569823,
+        -95.27150030554603
+      ],
+      "city": "Houston",
+      "state": "Texas",
+      "country": "United States",
+      "website": "houstonseafarers.com",
+      "email": "dana@houisc.org",
+      "phone": "+1-713-672-0511",
+      "gmap": "tXjpB7qP7WEPvs42A"
     },
     {
       "name": "International Mariners' Center at the Port of Hueneme",
@@ -224,12 +259,8 @@
       "city": "Port Hueneme",
       "state": "California",
       "country": "United States",
-      "zip": null,
-      "website": null,
       "email": "intlmariners@verizon.net",
-      "phone": "+1-805-271-5161",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+1-805-271-5161"
     },
     {
       "name": "International Port Ministry, Pascagoula",
@@ -240,11 +271,8 @@
       "city": "Pascagoula",
       "state": "Mississippi",
       "country": "United States",
-      "zip": null,
-      "website": null,
       "email": "josephmcdaris@icloud.com",
       "phone": "+1-228-762-6788",
-      "whatsapp": null,
       "pmi": true
     },
     {
@@ -256,12 +284,9 @@
       "city": "Vancouver",
       "state": "British Columbia",
       "country": "Canada",
-      "zip": null,
       "website": "sailorssociety.ca",
       "email": "bonnie@cosbc.ca",
-      "phone": "+1-604-681-2351",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+1-604-681-2351"
     },
     {
       "name": "International Seafarer's Ministry of Miami",
@@ -272,11 +297,9 @@
       "city": "Miami",
       "state": "Florida",
       "country": "United States",
-      "zip": null,
       "website": "ismportmiami.org",
       "email": "pastorvasiley@ismportmiami.org",
       "phone": "+1-305-390-7424",
-      "whatsapp": null,
       "pmi": true,
       "gmap": "Wn3UCEoS5GfykucQA"
     },
@@ -289,11 +312,7 @@
       "city": "Pascagoula",
       "state": "Mississippi",
       "country": "United States",
-      "zip": null,
-      "website": null,
-      "email": null,
       "phone": "+1-228-762-6788",
-      "whatsapp": null,
       "pmi": true
     },
     {
@@ -305,12 +324,9 @@
       "city": "Long Beach",
       "state": "California",
       "country": "United States",
-      "zip": null,
       "website": "iscpolb-la.org/",
       "email": "rbmac63@gmail.com",
       "phone": "+1-310-831-2756",
-      "whatsapp": null,
-      "pmi": false,
       "gmap": "gowniUjg198h5PAfA"
     },
     {
@@ -322,12 +338,9 @@
       "city": "Brunswick",
       "state": "Virginia",
       "country": "United States",
-      "zip": null,
       "website": "seafarerscenter.org",
       "email": "info@seafarerscenter.org",
-      "phone": "+1-912-267-0631",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+1-912-267-0631"
     },
     {
       "name": "International Seafarers' Center (Singapore)",
@@ -336,14 +349,10 @@
         103.82661
       ],
       "city": "Singapore",
-      "state": null,
       "country": "Singapore",
-      "zip": null,
       "website": "seafarers.org.sg/",
       "email": "info@seafarers.org.sg",
-      "phone": "+65 6227 7767",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+65 6227 7767"
     },
     {
       "name": "International Seafarers' Centre (Cebu)",
@@ -354,12 +363,22 @@
       "city": "Cebu City",
       "state": "Cebu",
       "country": "Philippines",
-      "zip": null,
       "website": "iscc.org.ph/",
       "email": "info@iscc.org.ph",
-      "phone": "+63 32 255 4973",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+63 32 255 4973"
+    },
+    {
+      "name": "International Seamen's Center",
+      "coordinates": [
+        10.31575,
+        123.88544
+      ],
+      "city": "Wilmington",
+      "state": "North Carolina",
+      "country": "United States",
+      "email": "iscwilmington@gmail.com",
+      "phone": "+1-910-762-3792",
+      "gmap": "dGNnU2dUyNL3atTT7"
     },
     {
       "name": "International Seamen's Center at Burns Harbor",
@@ -370,12 +389,24 @@
       "city": "Portage",
       "state": "Indiana",
       "country": "United States",
-      "zip": 46368,
-      "website": null,
       "email": "mwbnwiba@juno.com",
       "phone": "+1-219-201-2273",
-      "whatsapp": null,
       "pmi": true
+    },
+    {
+      "name": "International Seafarer Center",
+      "coordinates": [
+        25.95200967549314,
+        -97.40365578848211
+      ],
+      "city": "Brownsville",
+      "state": "Texas",
+      "country": "United States",
+      "website": "brownsvilleseafarer.com",
+      "email": "palbro05@gmail.com",
+      "phone": "+1-956-831-4321",
+      "pmi": true,
+      "gmap": "5ioZxrDokA9BtJqG8"
     },
     {
       "name": "International Seafarers Ministry",
@@ -386,11 +417,9 @@
       "city": "North Charleston",
       "state": "South Carolina",
       "country": "United States",
-      "zip": 29415,
       "website": "internationalseafarersministry.net",
       "email": "petros555@hotmail.com",
       "phone": "+1-843-554-6695",
-      "whatsapp": null,
       "pmi": true
     },
     {
@@ -402,12 +431,9 @@
       "city": "Surrey",
       "state": "British Columbia",
       "country": "Canada",
-      "zip": "V4C 4R9",
       "website": "sealight.org/index.php/en/",
       "email": "info@sealight.org",
-      "phone": "(604) 988-5084",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "(604) 988-5084"
     },
     {
       "name": "Lighthouse Harbour Ministries",
@@ -418,12 +444,9 @@
       "city": "North Vancouver",
       "state": "British Columbia",
       "country": "Canada",
-      "zip": "V7L 1A1",
       "website": "sealight.org/index.php/en/",
       "email": "info@sealight.org",
-      "phone": "(604) 988-5084",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "(604) 988-5084"
     },
     {
       "name": "Liverpool Seafarers' Centre",
@@ -434,12 +457,9 @@
       "city": "Liverpool",
       "state": "England",
       "country": "United Kingdom",
-      "zip": "L3 1BS",
       "website": "liverpoolseafarers.org/",
       "email": "info@liverpoolseafarers.org",
-      "phone": "+44 151 707 2900",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+44 151 707 2900"
     },
     {
       "name": "Lutheran Maritime Ministry",
@@ -450,13 +470,26 @@
       "city": "Long Beach",
       "state": "California",
       "country": "United States",
-      "zip": null,
       "website": "lmmsocal.com/",
       "email": "shekhar01@gmail.com",
-      "phone": "+1-562-209-1577",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+1-562-209-1577"
     },
+
+    {
+      "name": "Maison du marin Québec Seamen's Club",
+      "coordinates": [
+        46.82201577889295,
+        -71.1979979876027
+      ],
+      "city": "Quebec City",
+      "state": "Quebec",
+      "country": "Canada",
+      "website": "portquebec.ca/operations/operations-portuaires/la-maison-du-marin-de-quebec",
+      "email": "maisondumarin@live.ca",
+      "phone": "+1-418-953-9677",
+      "gmap": "pdfh3A6kpieft5Hq7"
+    },
+
     {
       "name": "Mariners' Church of Detroit",
       "coordinates": [
@@ -466,12 +499,9 @@
       "city": "Detroit",
       "state": "Michigan",
       "country": "United States",
-      "zip": "48226",
       "website": "marinerschurchdetroit.org/",
       "email": "info@marinerschurchdetroit.org",
-      "phone": "(313) 259-3200",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "(313) 259-3200"
     },
     {
       "name": "Mariner's House",
@@ -482,12 +512,9 @@
       "city": "Boston",
       "state": "Massachusetts",
       "country": "United States",
-      "zip": "02113",
       "website": "marinershouse.org",
       "email": "jsorrentino@marinershouse.org",
       "phone": "+1-617-227-3979",
-      "whatsapp": null,
-      "pmi": false,
       "gmap": "1EVsHoJf1X8FkfHR6"
     },
     {
@@ -499,12 +526,9 @@
       "city": "Montreal",
       "state": "Quebec",
       "country": "Canada",
-      "zip": "H2Y 4B2",
       "website": "marinershouse.ca/",
       "email": "manager@marinershouse.ca",
-      "phone": "514-849-3234",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "514-849-3234"
     },
     {
       "name": "Maritime Bethel Savannah",
@@ -515,32 +539,14 @@
       "city": "Savannah",
       "state": "Georgia",
       "country": "United States",
-      "zip": null,
       "website": "maritimebethelsavannah.com",
       "email": "info@maritimebethelsavannah.org",
       "phone": "+1-912-201-1099",
-      "whatsapp": null,
       "pmi": true,
       "gmap": "PC82McKudPqLexjZ7"
     },
     {
       "name": "Ministry to Seafarers",
-      "coordinates": [
-        49.2807,
-        -123.1077
-      ],
-      "city": "Vancouver",
-      "state": "British Columbia",
-      "country": "Canada",
-      "zip": "V6A 4G9",
-      "website": "ministrytoseafarers.com/",
-      "email": "crcvanportchaplain@gmail.com",
-      "phone": "(604) 253-4421",
-      "whatsapp": null,
-      "pmi": false
-    },
-    {
-      "name": "Mission to Seafarers",
       "coordinates": [
         49.28506,
         -123.14249
@@ -548,28 +554,9 @@
       "city": "Vancouver",
       "state": "British Columbia",
       "country": "Canada",
-      "zip": null,
-      "website": "missiontoseafarers.org/vancouver",
-      "email": "m2svancouver@gmail.com",
-      "phone": "+1-604-253-4421",
-      "whatsapp": null,
-      "pmi": false
-    },
-    {
-      "name": "Mission to Seafarers",
-      "coordinates": [
-        49.2807,
-        -123.1077
-      ],
-      "city": "Vancouver",
-      "state": "British Columbia",
-      "country": "Canada",
-      "zip": "V6A 4G9",
-      "website": "flyingangel.ca/",
-      "email": "vanchaplain.missiontoseafarers@gmail.com",
-      "phone": "(604) 253-4421",
-      "whatsapp": null,
-      "pmi": false
+      "website": "ministrytoseafarers.com",
+      "email": "crcvanportchaplain@gmail.com",
+      "phone": "+1-604-817-6370"
     },
     {
       "name": "Mission to Seafarers",
@@ -580,12 +567,9 @@
       "city": "Halifax",
       "state": "Nova Scotia",
       "country": "Canada",
-      "zip": "B3H 4M8",
       "website": "missiontoseafarershalifax.ca",
       "email": "hglenn@bellaliant.com",
-      "phone": "(902) 422-7790",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "(902) 422-7790"
     },
     {
       "name": "Mission to Seafarers Hong Kong",
@@ -594,14 +578,10 @@
         114.17281
       ],
       "city": "Hong Kong",
-      "state": null,
       "country": "Hong Kong",
-      "zip": null,
       "website": "missiontoseafarers.org/hong-kong",
       "email": "info@missiontoseafarers.org",
-      "phone": "+852 2367 3039",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+852 2367 3039"
     },
     {
       "name": "Mission to Seafarers London",
@@ -612,12 +592,9 @@
       "city": "London",
       "state": "England",
       "country": "United Kingdom",
-      "zip": "E1W 1LN",
       "website": "missiontoseafarers.org/london",
       "email": "info@missiontoseafarers.org",
-      "phone": "+44 20 7488 5254",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+44 20 7488 5254"
     },
     {
       "name": "Mission to Seafarers of Southern Ontario",
@@ -628,12 +605,9 @@
       "city": "Hamilton",
       "state": "Ontario",
       "country": "Canada",
-      "zip": "L8L 4J5",
       "website": "mtsso.org",
       "email": "dan.phannenhour@gmail.com",
-      "phone": "(905) 312-0808 or mobile (905) 616) 8985",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "(905) 312-0808 or mobile (905) 616) 8985"
     },
     {
       "name": "Mission to Seafarers of Southern Ontario",
@@ -644,12 +618,9 @@
       "city": "Toronto",
       "state": "Ontario",
       "country": "Canada",
-      "zip": "M5A 1A1",
-      "website": "missiontoseafarers.org/toronto/",
+      "website": "www.mtsso.org",
       "email": "glutenfreepriest@me.com",
-      "phone": "(416) 469-5391 or Mobile: (647) 295-3219",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+1-416-469-5391"
     },
     {
       "name": "Mission to Seafarers St. Clair Region",
@@ -660,12 +631,9 @@
       "city": "Point Edward",
       "state": "Ontario",
       "country": "Canada",
-      "zip": "N7V 1E7",
       "website": "missiontoseafarers.ca/GreatLakes.html",
       "email": "sarnia@missiontoseafarers.ca",
-      "phone": "(519) 331-8472",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+1-519-331-8472"
     },
     {
       "name": "Mission to Seafarers – Liverpool",
@@ -676,12 +644,9 @@
       "city": "Liverpool",
       "state": "England",
       "country": "United Kingdom",
-      "zip": "L2 0NX",
       "website": "missiontoseafarers.org/liverpool",
       "email": "liverpool@missiontoseafarers.org",
-      "phone": "+44 151 727 5877",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+44 151 727 5877"
     },
     {
       "name": "Mission to Seafarers – Mumbai",
@@ -692,12 +657,9 @@
       "city": "Mumbai",
       "state": "Maharashtra",
       "country": "India",
-      "zip": "400003",
       "website": "missiontoseafarers.org/mumbai",
       "email": "mumbai@missiontoseafarers.org",
-      "phone": "+91 22 2261 3437",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+91 22 2261 3437"
     },
     {
       "name": "Mission to Seafarers – Port of Antwerp",
@@ -708,12 +670,9 @@
       "city": "Antwerp",
       "state": "Flanders",
       "country": "Belgium",
-      "zip": "2000",
       "website": "missiontoseafarers.org/antwerp",
       "email": "antwerp@missiontoseafarers.org",
-      "phone": "+32 3 206 1033",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+32 3 206 1033"
     },
     {
       "name": "Mission to Seafarers – Sydney",
@@ -724,12 +683,9 @@
       "city": "Sydney",
       "state": "New South Wales",
       "country": "Australia",
-      "zip": null,
       "website": "missiontoseafarers.org/sydney",
       "email": "sydney@missiontoseafarers.org",
-      "phone": "+61 2 9281 5433",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+61 2 9281 5433"
     },
     {
       "name": "Mobile Baptist Seafarer's Ministry",
@@ -740,9 +696,7 @@
       "city": "Mobile",
       "state": "Alabama",
       "country": "United States",
-      "zip": "36609",
       "website": "mobilebaptists.org/seafarers-ministry/",
-      "email": null,
       "phone": "1-251-433-7953",
       "whatsapp": "+12513287118",
       "pmi": true
@@ -756,13 +710,66 @@
       "city": "Boston",
       "state": "Massachusetts",
       "country": "United States",
-      "zip": "02210",
       "website": "neseafarers.org",
       "email": "scushing@neseafarers.org",
       "phone": "1-617-443-0282",
-      "whatsapp": null,
-      "pmi": false,
       "gmap": "EvnUCn58BpE8HJwm8"
+    },
+    {
+      "name": "Norfolk Seamen's Friend Society",
+      "coordinates": [
+        36.86505879202249,
+        -76.30919027458282
+      ],
+      "city": "Norfolk",
+      "state": "Virginia",
+      "country": "United States",
+      "website": "seamensfriend.com",
+      "email": "biazonmj@juno.com",
+      "phone": "+1-757-423-3107",
+      "gmap": "Aa74vKCWbwMQA5RT8"
+    },
+    {
+      "name": "Norwegian Seaman's Church",
+      "coordinates": [
+        29.646538120682955,
+        -95.19311211165017
+      ],
+      "city": "Pasadena",
+      "state": "Texas",
+      "country": "United States",
+      "website": "neseafarers.org",
+      "email": "houston@sjomannskirken.no",
+      "phone": "1-281-998-8366",
+      "gmap": "jiT4aGQEVtYi15cd7"
+    },
+    {
+      "name": "Point Comfort Seafarers' Center",
+      "coordinates": [
+        28.64517596975629,
+        -96.54830388113827
+      ],
+      "city": "Point Comfort",
+      "state": "Texas",
+      "country": "United States",
+      "website": "ptcomfortsc.org",
+      "email": "info@ptcomfortsc.org",
+      "phone": "+1-361-987-0569",
+      "gmap": "WJUXBSwhzEybEikf6"
+    },
+    {
+      "name": "Port Arthur International Seafarers' Center",
+      "coordinates": [
+        29.867958443235732,
+        -93.93830708650309
+      ],
+      "city": "Port Arthur",
+      "state": "Texas",
+      "country": "United States",
+      "website": "paisc.org",
+      "email": "paseafarers@sbcglobal.net",
+      "phone": "1-409-982-4504",
+      "gmap": "eEJvfivajju4UFTq6"
     },
     {
       "name": "Port of Callao Seafarers' Centre",
@@ -773,12 +780,9 @@
       "city": "Callao",
       "state": "Lima",
       "country": "Peru",
-      "zip": null,
       "website": "callaoseafarers.org/",
       "email": "info@callaoseafarers.org",
-      "phone": "+51 1 419 9292",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+51 1 419 9292"
     },
     {
       "name": "Port of Charleston Seafarers' Center",
@@ -789,12 +793,9 @@
       "city": "Charleston",
       "state": "South Carolina",
       "country": "United States",
-      "zip": null,
       "website": "portofcharleston.com/seafarers-center",
       "email": "info@portofcharleston.com",
-      "phone": "(843) 577-2042",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "(843) 577-2042"
     },
     {
       "name": "Port of Colombo Seafarers' Centre",
@@ -803,46 +804,10 @@
         79.86124
       ],
       "city": "Colombo",
-      "state": null,
       "country": "Sri Lanka",
-      "zip": null,
       "website": "seafarerscolombo.org/",
       "email": "info@seafarerscolombo.org",
-      "phone": "+94 11 245 3101",
-      "whatsapp": null,
-      "pmi": false
-    },
-    {
-      "name": "Port of Corpus Christi Seafarers' Center",
-      "coordinates": [
-        27.86651,
-        -97.03332
-      ],
-      "city": "Corpus Christi",
-      "state": "Texas",
-      "country": "United States",
-      "zip": null,
-      "website": "portofcorpuschristi.com/seafarers-center",
-      "email": "seafarers@portofcorpuschristi.com",
-      "phone": "(361) 883-7577",
-      "whatsapp": null,
-      "pmi": false
-    },
-    {
-      "name": "Port of Houston Seafarers' Center",
-      "coordinates": [
-        29.73585,
-        -95.22074
-      ],
-      "city": "Houston",
-      "state": "Texas",
-      "country": "United States",
-      "zip": null,
-      "website": "porthouston.com/seafarers-center/",
-      "email": "seafarers@porthouston.com",
-      "phone": "(713) 670-2416",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+94 11 245 3101"
     },
     {
       "name": "Port of Le Havre Seafarers' Centre",
@@ -853,12 +818,9 @@
       "city": "Le Havre",
       "state": "Normandy",
       "country": "France",
-      "zip": "76600",
       "website": "missiontoseafarers.org/le-havre",
       "email": "lehavre@missiontoseafarers.org",
-      "phone": "+33 2 35 22 11 98",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+33 2 35 22 11 98"
     },
     {
       "name": "Port of Palm Beach Seafarers' Center",
@@ -869,12 +831,9 @@
       "city": "Riviera Beach",
       "state": "Florida",
       "country": "United States",
-      "zip": null,
       "website": "palmbeachseafarerscenter.org",
       "email": "pbseafarers@gmail.com",
-      "phone": "+1-561-480-4806",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+1-561-480-4806"
     },
     {
       "name": "Port of San Diego Seafarers' Center",
@@ -885,28 +844,23 @@
       "city": "San Diego",
       "state": "California",
       "country": "United States",
-      "zip": null,
       "website": "portofsandiego.org/seafarers-center",
       "email": "seafarers@portofsandiego.org",
-      "phone": "(619) 686-6200",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "(619) 686-6200"
     },
     {
       "name": "Port of Seattle Seafarers' Center",
       "coordinates": [
-        47.59567,
-        -122.33258
+        47.57079658659691,
+        -122.34894023315717
       ],
       "city": "Seattle",
       "state": "Washington",
       "country": "United States",
-      "zip": null,
-      "website": "portseattle.org/page/seafarers-center",
-      "email": "seafarers@portseattle.org",
-      "phone": "(206) 787-3400",
-      "whatsapp": null,
-      "pmi": false
+      "website": "mts-seattle.org",
+      "email": "office@mts-seattle.org",
+      "phone": "+1-206-935-3439",
+      "gmap": "1oTYmW395YMfxi9v9"
     },
     {
       "name": "Portsmouth Seafarers' Center",
@@ -917,11 +871,9 @@
       "city": "Portsmouth",
       "state": "Virginia",
       "country": "United States",
-      "zip": "23704",
       "website": "facebook.com/PortsmouthSeafarersCenter",
       "email": "chaplain@ttm-va.org",
       "phone": "+1-757-967-7696",
-      "whatsapp": null,
       "pmi": true
     },
     {
@@ -933,12 +885,9 @@
       "city": "Portsmouth",
       "state": "England",
       "country": "United Kingdom",
-      "zip": "PO1 3JE",
       "website": "portsmouthseafarers.org.uk/",
       "email": "info@portsmouthseafarers.org.uk",
-      "phone": "+44 23 9283 4893",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+44 23 9283 4893"
     },
     {
       "name": "Rotterdam Seafarers' Centre",
@@ -949,12 +898,9 @@
       "city": "Rotterdam",
       "state": "South Holland",
       "country": "Netherlands",
-      "zip": null,
       "website": "seafarerscenterrotterdam.org/",
       "email": "info@seafarerscenterrotterdam.org",
-      "phone": "+31 10 477 6023",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+31 10 477 6023"
     },
     {
       "name": "Saguenay International Seafarers' Ministry",
@@ -965,12 +911,9 @@
       "city": "La Baie",
       "state": "Quebec",
       "country": "Canada",
-      "zip": "G7B 3P9",
       "website": "facebook.com/pg/missioninternationaledesmarinsausaguenay/about/",
       "email": "seamensg@gmail.com",
-      "phone": "(418) 817-3244",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "(418) 817-3244"
     },
     {
       "name": "Sailors' Society",
@@ -981,12 +924,9 @@
       "city": "London",
       "state": "England",
       "country": "United Kingdom",
-      "zip": "E1 8HQ",
       "website": "sailors-society.org/",
       "email": "info@sailors-society.org",
-      "phone": "+44 (0) 20 7247 1212",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+44 (0) 20 7247 1212"
     },
     {
       "name": "Saint John Seafarers' Mission",
@@ -997,12 +937,9 @@
       "city": "Saint John",
       "state": "New Brunswick",
       "country": "Canada",
-      "zip": "E2M 5Y1",
       "website": "sjseafarers.com",
       "email": "seaf@nb.aibn.com",
-      "phone": "+1-506-635-1731",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+1-506-635-1731"
     },
     {
       "name": "Seafarer's Christian Friend Society, Hamburg",
@@ -1011,13 +948,10 @@
         9.945030
       ],
       "city": "Hamburg",
-      "state": null,
       "country": "Germany",
-      "zip": null,
       "website": "scfs.org/port/hamburg-port/",
       "email": "scfs.martin.otto@gmx.de",
       "phone": "+49 17 9399 4456",
-      "whatsapp": null,
       "pmi": true
     },
     {
@@ -1027,13 +961,10 @@
         4.238670
       ],
       "city": "Rotterdam",
-      "state": null,
       "country": "Netherlands",
-      "zip": null,
       "website": "scfs-rotterdam.nl",
       "email": "info@scfs-rotterdam.nl",
       "phone": "+31 6 2239 3023",
-      "whatsapp": null,
       "pmi": true
     },
     {
@@ -1045,11 +976,9 @@
       "city": "Chelsea",
       "state": "Massachusetts",
       "country": "United States",
-      "zip": "02150",
       "website": "www.seafarersfriend.org",
       "email": "director@seafarersfriend.org",
       "phone": "+1-617-889-3222",
-      "whatsapp": null,
       "pmi": true
     },
     {
@@ -1061,12 +990,8 @@
       "city": "Ft. Lauderdale",
       "state": "Florida",
       "country": "United States",
-      "zip": null,
-      "website": null,
       "email": "info@seafarershouse.org",
-      "phone": "+1-954-734-1580",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+1-954-734-1580"
     },
     {
       "name": "Seafarer's Ministry, Port of Fernandina",
@@ -1077,11 +1002,8 @@
       "city": "Fernandina",
       "state": "Florida",
       "country": "United States",
-      "zip": null,
-      "website": null,
       "email": "SeafarersMinistryPoF@gmail.com",
       "phone": "+1-904-885-0428",
-      "whatsapp": null,
       "pmi": true
     },
     {
@@ -1093,12 +1015,9 @@
       "city": "New Haven",
       "state": "Connecticut",
       "country": "United States",
-      "zip": null,
       "website": "sihnyc.org/",
       "email": "port-mission@sihnyc.org",
-      "phone": "+1-203-543-7031",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+1-203-543-7031"
     },
     {
       "name": "Seafarers' Centre in Busan",
@@ -1109,12 +1028,9 @@
       "city": "Busan",
       "state": "South Korea",
       "country": "South Korea",
-      "zip": null,
       "website": "busanseafarers.org/",
       "email": "info@busanseafarers.org",
-      "phone": "+82 51 463 2020",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+82 51 463 2020"
     },
     {
       "name": "Seafarers' Centre in Mauritius",
@@ -1125,12 +1041,9 @@
       "city": "Port Louis",
       "state": "Port Louis",
       "country": "Mauritius",
-      "zip": null,
       "website": "seafarersmauritius.org/",
       "email": "info@seafarersmauritius.org",
-      "phone": "+230 211 5675",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+230 211 5675"
     },
     {
       "name": "Seafarers' Centre – Port of Los Angeles",
@@ -1141,12 +1054,9 @@
       "city": "Los Angeles",
       "state": "California",
       "country": "United States",
-      "zip": null,
       "website": "portoflosangeles.org/seafarers-center",
       "email": "seafarers@portoflosangeles.org",
-      "phone": "(310) 547-0608",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "(310) 547-0608"
     },
     {
       "name": "Seafarers' Centre – Port of Singapore",
@@ -1155,14 +1065,24 @@
         103.81974
       ],
       "city": "Singapore",
-      "state": null,
       "country": "Singapore",
-      "zip": null,
       "website": "seafarerscentre.org.sg/",
       "email": "info@seafarerscentre.org.sg",
-      "phone": "+65 6227 1188",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+65 6227 1188"
+    },
+    {
+      "name": "Seafarers' House of San Juan",
+      "coordinates": [
+        18.466757886776747,
+        -66.11234913101316
+      ],
+      "city": "San Juan",
+      "state": "Puerto Rico",
+      "country": "United States",
+      "website": "seafarerspr.org",
+      "email": "info@seafarerspr.org",
+      "phone": "+1-787-722-7575",
+      "gmap": "NqjBv1MyFvMAffvv9"
     },
     {
       "name": "DMG Interpersonal",
@@ -1171,14 +1091,27 @@
         8.581137
       ],
       "city": "Bremerhaven",
-      "state": null,
       "country": "Germany",
-      "zip": null,
       "website": "dmgint.de",
       "email": "office@bremenports.de",
       "phone": "+49 7265 959100",
       "whatsapp": "+491777397938",
       "pmi": true
+    },
+    {
+      "name": "Seafarers' Center of Beaumont",
+      "coordinates": [
+        30.07928689938386,
+        -94.09240730887184
+      ],
+      "city": "Beaumont",
+      "state": "Texas",
+      "country": "United States",
+      "website": "seafarerscenterofbeaumont.org",
+      "email": "scbeaumont@sbcglobal.net",
+      "phone": "+1-409-832-7794",
+      "pmi": true,
+      "gmap": "yMn6haKzcmSn3WxNA6"
     },
     {
       "name": "Seafarers' Ministry of the Golden Gate",
@@ -1189,11 +1122,9 @@
       "city": "Oakland",
       "state": "California",
       "country": "United States",
-      "zip": null,
       "website": "smgg.org",
       "email": "rawhiipsr@gmail.com",
       "phone": "+1-510-839-2226",
-      "whatsapp": null,
       "pmi": true,
       "gmap": "5siW8VvmKgvZsTuF6"
     },
@@ -1206,12 +1137,9 @@
       "city": "Prince Rupert",
       "state": "British Columbia",
       "country": "Canada",
-      "zip": "V8J 1L2",
       "website": "facebook.com/seafarersrupert.princerupert/",
       "email": "seafarers@citywest.ca",
-      "phone": "(250) 624-6724",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "(250) 624-6724"
     },
     {
       "name": "Seafarers' Welfare Centre (Manila)",
@@ -1222,12 +1150,9 @@
       "city": "Manila",
       "state": "Metro Manila",
       "country": "Philippines",
-      "zip": null,
       "website": "seafarerswelfarecentre.org.ph/",
       "email": "info@seafarerswelfarecentre.org.ph",
-      "phone": "+63 2 244 9897",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+63 2 244 9897"
     },
     {
       "name": "Seamen's Center of Wilmington",
@@ -1238,12 +1163,8 @@
       "city": "Wilmington",
       "state": "Delaware",
       "country": "United States",
-      "zip": "19801",
-      "website": null,
       "email": "scw@scwde.org",
-      "phone": "+1-302-575-1300",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+1-302-575-1300"
     },
     {
       "name": "Ship to Shore Regions Beyond International, Theodore",
@@ -1254,11 +1175,8 @@
       "city": "Oceansprings",
       "state": "Mississippi",
       "country": "United States",
-      "zip": 39564,
-      "website": null,
       "email": "cecilafayard@msn.com",
       "phone": "+1-662-417-6089",
-      "whatsapp": null,
       "pmi": true
     },
     {
@@ -1270,12 +1188,9 @@
       "city": "Southampton",
       "state": "England",
       "country": "United Kingdom",
-      "zip": null,
       "website": "southamptonseafarers.org/",
       "email": "info@southamptonseafarers.org",
-      "phone": "+44 23 8045 4744",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+44 23 8045 4744"
     },
     {
       "name": "St. Peter's Seafarers' Ministry",
@@ -1286,12 +1201,9 @@
       "city": "New York",
       "state": "New York",
       "country": "United States",
-      "zip": null,
       "website": "saintpetersnyc.org/seafarers-ministry",
       "email": "seafarers@saintpetersnyc.org",
-      "phone": "(212) 235-1150",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "(212) 235-1150"
     },
     {
       "name": "Stella Maris",
@@ -1302,12 +1214,33 @@
       "city": "Vancouver",
       "state": "British Columbia",
       "country": "Canada",
-      "zip": null,
-      "website": null,
       "email": "dathaide@rcav.org",
-      "phone": "+1-604-817-6370",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+1-604-817-6370"
+    },
+    {
+      "name": "Stella Maris",
+      "coordinates": [
+        32.768518,
+        -79.916777
+      ],
+      "city": "Charleston",
+      "state": "South Carolina",
+      "country": "United States",
+      "website": "charlestondiocese.org/port-ministry",
+      "email": "paul.rosenblum@stellamarismail.org",
+      "phone": "+1-843-747-7550"
+    },
+    {
+      "name": "Stella Maris",
+      "coordinates": [
+        45.493709778929706,
+        -73.58391947232936
+      ],
+      "city": "Montreal",
+      "state": "Quebec",
+      "country": "Canada",
+      "email": "infos@diocesemontreal.org",
+      "phone": "+1-514-925-4300"
     },
     {
       "name": "Stella Maris",
@@ -1318,12 +1251,22 @@
       "city": "Oshawa",
       "state": "Ontario",
       "country": "Canada",
-      "zip": "L1H 6H8",
       "website": "missiontoseafarers.ca/GreatLakes.html",
       "email": "alban.soares@gmail.com",
-      "phone": "(905) 686-0775",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+1-905-686-0775"
+    },
+    {
+      "name": "Stella Maris",
+      "coordinates": [
+        29.918533273112164,
+        -93.90805846808848
+      ],
+      "city": "Port Arthur",
+      "state": "Texas",
+      "country": "United States",
+      "website": "aos-usa.org",
+      "email": "aosusa@sbcglobal.net",
+      "phone": "+1-409-985-4545"
     },
     {
       "name": "Stella Maris",
@@ -1334,12 +1277,8 @@
       "city": "Toronto",
       "state": "Ontario",
       "country": "Canada",
-      "zip": "M5A 1A1",
-      "website": "apostleshipofthesea.ca/contact-our-chaplains/",
       "email": "deacon_michaelho@yahoo.com",
-      "phone": "(647) 628-0533",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+1-647-628-0533"
     },
     {
       "name": "Stella Maris",
@@ -1350,12 +1289,8 @@
       "city": "Sept-Îles",
       "state": "Quebec",
       "country": "Canada",
-      "zip": "G4R 4K6",
-      "website": null,
       "email": "luciell@globetrotter.net",
-      "phone": "(418) 962-7310",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "(418) 962-7310"
     },
     {
       "name": "Stella Maris",
@@ -1366,12 +1301,10 @@
       "city": "Destrehan",
       "state": "Louisiana",
       "country": "United States",
-      "zip": 70047,
       "website": "nolacatholic.org/stella-maris-maritime-center-west",
       "email": "stellamaris@archdiocese-no.org",
       "phone": "+1-985-307-0601",
-      "whatsapp": "+15049055975",
-      "pmi": false
+      "whatsapp": "+15049055975"
     },
 
     {
@@ -1383,12 +1316,8 @@
       "city": "Dundulk",
       "state": "Maryland",
       "country": "United States",
-      "zip": 70047,
-      "website": null,
       "email": "andrew.middleton@archbalt.org",
-      "phone": "+1-443-690-2447",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+1-443-690-2447"
     },
 
     {
@@ -1399,12 +1328,9 @@
       "city": "Lakes Charles",
       "state": "Louisiana",
       "country": "United States",
-      "zip": 70601,
       "website": "olpssulphur.com/seafarers-center",
       "email": "stella.maris@lcdiocese.org",
-      "phone": "+1-337-436-1315",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+1-337-436-1315"
     },
     {
       "name": "Stella Maris",
@@ -1415,12 +1341,8 @@
       "city": "Mobile",
       "state": "Alabama",
       "country": "United States",
-      "zip": null,
-      "website": null,
       "email": "jarcher3696@sbcglobal.net",
-      "phone": "+1-251-432-7339",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+1-251-432-7339"
     },
     {
       "name": "Stella Maris",
@@ -1431,12 +1353,9 @@
       "city": "Jacksonville",
       "state": "Florida",
       "country": "United States",
-      "zip": null,
       "website": "dosafl.com/ministries/stella-maris-seafarers-ministry/",
       "email": "mvega@dosafl.com",
-      "phone": "+1-904-613-3489",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+1-904-613-3489"
     },
     {
       "name": "Stella Maris New Zealand",
@@ -1447,15 +1366,12 @@
       "city": "Wellington",
       "state": "New Zealand",
       "country": "New Zealand",
-      "zip": null,
       "website": "stellamaris.org.nz/",
       "email": "info@stellamaris.org.nz",
-      "phone": "+64 4 385 4005",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+64 4 385 4005"
     },
     {
-      "name": "Stella Maris Seafarers' Center, Southampton",
+      "name": "Stella Maris",
       "coordinates": [
         50.90772,
         -1.39629
@@ -1463,12 +1379,9 @@
       "city": "Southampton",
       "state": "England",
       "country": "United Kingdom",
-      "zip": null,
       "website": "stellamarissouthampton.org.uk/",
       "email": "info@stellamarissouthampton.org.uk",
-      "phone": "+44 23 8022 5065",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+44 23 8022 5065"
     },
     {
       "name": "Tacoma Seafarers' Center",
@@ -1479,11 +1392,9 @@
       "city": "Tacoma",
       "state": "Washington",
       "country": "United States",
-      "zip": 98421,
       "website": "facebook.com/TacomaSeafarersCenter/",
       "email": "center@tacomaseafarers.org",
       "phone": "+1-253-272-0716",
-      "whatsapp": null,
       "pmi": true,
       "gmap": "xLXNh1bPbTupqEZS6"
     },
@@ -1496,11 +1407,9 @@
       "city": "Tampa",
       "state": "Florida",
       "country": "United States",
-      "zip": "33602",
       "website": "tampaportministries.org",
       "email": "SteveFinnesy@gmail.com",
       "phone": "+1-813-247-5273",
-      "whatsapp": null,
       "pmi": true,
       "gmap": "RG3RDb8L7jX6M1jJA"
     },
@@ -1513,11 +1422,9 @@
       "city": "Tampa",
       "state": "Florida",
       "country": "United States",
-      "zip": "33605",
       "website": "tampaseafarerscenter.org/",
       "email": "info@tampaseafarerscenter.org",
-      "phone": "(813) 247-3280",
-      "whatsapp": null,
+      "phone": "(813) 247-3280",  
       "pmi": true
     },
     {
@@ -1529,12 +1436,9 @@
       "city": "Oshawa",
       "state": "Ontario",
       "country": "Canada",
-      "zip": "L1H 6H8",
       "website": "mtsso.org",
       "email": "jill.wyllie@rogers.com",
-      "phone": "(289) 830-4421",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "(289) 830-4421"
     },
     {
       "name": "Texas Port Ministries, Freeport",
@@ -1545,11 +1449,9 @@
       "city": "Freeport",
       "state": "Texas",
       "country": "United States",
-      "zip": "77541",
       "website": "texasportministry.org/",
       "email": "info@texasportministry.org",
       "phone": "+1-979-233-5641",
-      "whatsapp": null,
       "pmi": true,
       "gmap": "hJVfnGpd5D4NosgE9"
     },
@@ -1562,12 +1464,9 @@
       "city": "Detroit",
       "state": "Michigan",
       "country": "United States",
-      "zip": "48226",
       "website": "marinerschurchdetroit.org/",
       "email": "info@marinerschurchdetroit.org",
-      "phone": "(313) 259-3200",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "(313) 259-3200"
     },
     {
       "name": "The Ministry to Seafarers of the CRC (Montreal)",
@@ -1578,12 +1477,9 @@
       "city": "Montreal",
       "state": "Quebec",
       "country": "Canada",
-      "zip": "H2Y 4B2",
       "website": "ministrytoseafarers.org/",
       "email": "info@ministrytoseafarers.org",
-      "phone": "(514) 849-3234",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "(514) 849-3234"
     },
     {
       "name": "The Mission to Seafarers",
@@ -1594,12 +1490,9 @@
       "city": "Thunder Bay",
       "state": "Ontario",
       "country": "Canada",
-      "zip": "P7B 6R9",
       "website": "missiontoseafarers.ca/GreatLakes.html",
       "email": "thunder.bay@missiontoseafarers.ca",
-      "phone": "(807) 344-8241",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "(807) 344-8241"
     },
     {
       "name": "The Mission to Seafarers",
@@ -1610,12 +1503,8 @@
       "city": "Windsor",
       "state": "Ontario",
       "country": "Canada",
-      "zip": null,
       "website": "portwindsor.com/port-info/services/#1444328997092-8f352b8c-258e",
-      "email": null,
-      "phone": "519-253-4824",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "519-253-4824"
     },
     {
       "name": "The Seafarers' Center of Galveston",
@@ -1626,14 +1515,11 @@
       "city": "Galveston",
       "state": "Texas",
       "country": "United States",
-      "zip": null,
       "website": "archgh.org/offices-ministries/clergy-formation-chaplaincy-services/port-ministry/",
       "email": "manager@galvestonseafarerscenter.org",
       "phone": "+1-281-788-8158",
-      "whatsapp": null,
-      "pmi": false
+      "gmap": "qeEgj8Tnmws64mMY9"
     },
-     
     {
       "name": "The Seafarers' Centre in Newcastle",
       "coordinates": [
@@ -1643,12 +1529,9 @@
       "city": "Newcastle",
       "state": "England",
       "country": "United Kingdom",
-      "zip": "NE6 5QF",
       "website": "seafarerscentre.org.uk/",
       "email": "info@seafarerscentre.org.uk",
-      "phone": "+44 191 232 4565",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+44 191 232 4565"
     },
     {
       "name": "The Seamen's Church Institute of New York and New Jersey",
@@ -1659,12 +1542,22 @@
       "city": "New York",
       "state": "New York",
       "country": "United States",
-      "zip": null,
       "website": "seamenschurch.org/",
       "email": "seafarers@seamenschurch.org",
-      "phone": "(212) 349-9090",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+1-212-349-9090"
+    },
+    {
+      "name": "The Seamen's Church Institute of Philadelphia and South Jersey",
+      "coordinates": [
+        39.89439737504533,
+        -75.17523348979033
+      ],
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "website": "sciphiladelphia.org",
+      "email": "seafarerhelp@sciphiladelphia.org",
+      "phone": "+1-215-922-2562"
     },
     {
       "name": "Tianjin Seafarers' Centre",
@@ -1673,14 +1566,10 @@
         117.20098
       ],
       "city": "Tianjin",
-      "state": null,
       "country": "China",
-      "zip": null,
       "website": "seafarers.org.cn/",
       "email": "info@seafarers.org.cn",
-      "phone": "+86 22 2625 0911",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+86 22 2625 0911"
     },
     {
       "name": "Upper Room Seafarers' Centre",
@@ -1691,28 +1580,8 @@
       "city": "Port Alberni",
       "state": "British Columbia",
       "country": "Canada",
-      "zip": "V9Y 1T6",
       "website": "facebook.com/Upper-Room-Seafarers-Center-Port-Alberni-1670483929937006/",
-      "email": "pastor@avcrc.org",
-      "phone": null,
-      "whatsapp": null,
-      "pmi": false
-    },
-    {
-      "name": "Ministry to Seafarers",
-      "coordinates": [
-        49.28506,
-        -123.14249
-      ],
-      "city": "Vancouver",
-      "state": "British Columbia",
-      "country": "Canada",
-      "zip": null,
-      "website": "ministrytoseafarers.com",
-      "email": "crcvanportchaplain@gmail.com",
-      "phone": "+1-604-817-6370",
-      "whatsapp": null,
-      "pmi": false
+      "email": "pastor@avcrc.org"
     },
     {
       "name": "Vancouver Seafarers' Centre",
@@ -1723,12 +1592,9 @@
       "city": "Vancouver",
       "state": "British Columbia",
       "country": "Canada",
-      "zip": "V6C 0A1",
       "website": "vancouverseafarers.org/",
       "email": "info@vancouverseafarers.org",
-      "phone": "(604) 683-4440",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "(604) 683-4440"
     },
     {
       "name": "Wellington Seafarers' Centre",
@@ -1739,12 +1605,9 @@
       "city": "Wellington",
       "state": "Wellington",
       "country": "New Zealand",
-      "zip": null,
       "website": "wellingtonseafarerscentre.org.nz/",
       "email": "info@wellingtonseafarerscentre.org.nz",
-      "phone": "+64 4 382 6800",
-      "whatsapp": null,
-      "pmi": false
+      "phone": "+64 4 382 6800"
     }
   ]
 }
