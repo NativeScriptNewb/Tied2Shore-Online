@@ -132,7 +132,7 @@
                         }).addTo(map);
 
                         // Popup Content for each marker
-                        marker.bindPopup(`<b>${location.name}</b><br>${location.country}`)
+                        marker.bindPopup(`<b>${location.name}</b><br>${location.state}, ${location.country}`)
 
                     // Update list to reflect only selected location
                     .on('popupopen', () => {
@@ -196,10 +196,6 @@
                     const name = document.createElement('h3');
                     name.textContent = location.name;
 
-                    // Debugging for location.whatever
-                    console.log(location.name);
-
-
                     // City, State, Country with classes for filtering
                     const city = document.createElement('p');
                     if (location.city) {
@@ -220,7 +216,7 @@
                         country.textContent = `Country: ${location.country}`;
                     }
 
-                    // Google Map Button for PMI sites
+                    // Google Map Button
                     const gmapContainer = document.createElement('span');
                     const gmapIcon = document.createElement('img');
                     const gmap = document.createElement('a');
