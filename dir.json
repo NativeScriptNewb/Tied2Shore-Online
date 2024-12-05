@@ -425,28 +425,30 @@
     {
       "name": "Lighthouse Harbour Ministries",
       "coordinates": [
-        49.1375,
-        -122.9025
+        49.17637114034538,
+        -122.91522091631317
       ],
       "city": "Surrey",
       "state": "British Columbia",
       "country": "Canada",
-      "website": "sealight.org/index.php/en/",
+      "website": "sealight.org",
       "email": "info@sealight.org",
-      "phone": "(604) 988-5084"
+      "phone": "+1-604-583-1868",
+      "gmap": "uyjHnpr7jq5Rjz7h6"
     },
     {
       "name": "Lighthouse Harbour Ministries",
       "coordinates": [
-        49.3139,
-        -123.0706
+        49.30906130107783,
+        -123.07421644698951
       ],
       "city": "North Vancouver",
       "state": "British Columbia",
       "country": "Canada",
       "website": "sealight.org/index.php/en/",
       "email": "info@sealight.org",
-      "phone": "(604) 988-5084"
+      "phone": "+1-604-988-5084",
+      "gmap": "BNXM9NJebXguddrw7"
     },
     {
       "name": "Liverpool Seafarers' Centre",
@@ -548,15 +550,16 @@
     {
       "name": "Ministry to Seafarers",
       "coordinates": [
-        49.28506,
-        -123.14249
+        49.285940974890536,
+        -123.09497066233259
       ],
       "city": "Vancouver",
       "state": "British Columbia",
       "country": "Canada",
       "website": "ministrytoseafarers.com",
       "email": "crcvanportchaplain@gmail.com",
-      "phone": "+1-604-817-6370"
+      "phone": "+1-604-253-4421",
+      "gmap": "https://maps.app.goo.gl/MpL7y94DGL2BzZqr6"
     },
     {
       "name": "Mission to Seafarers",
@@ -1519,19 +1522,6 @@
       "email": "manager@galvestonseafarerscenter.org",
       "phone": "+1-281-788-8158",
       "gmap": "qeEgj8Tnmws64mMY9"
-    },
-    {
-      "name": "The Seafarers' Centre in Newcastle",
-      "coordinates": [
-        54.97433,
-        -1.61659
-      ],
-      "city": "Newcastle",
-      "state": "England",
-      "country": "United Kingdom",
-      "website": "seafarerscentre.org.uk/",
-      "email": "info@seafarerscentre.org.uk",
-      "phone": "+44 191 232 4565"
     },
     {
       "name": "The Seamen's Church Institute of New York and New Jersey",
