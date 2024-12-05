@@ -31,6 +31,14 @@
                         // Syncronize data with locations variable
                         locations = data.locations;
                         // Create list of locations
+
+                        // Log number of locations
+                        let numOfLocations = 0;
+                        for (let location of locations) {
+                        numOfLocations += 1; // Increase numOfLocations by 1 for each location
+                        }
+                        console.log(`Loaded ${dirSize} locations`);
+                        
                         displayLocations(locations); // Display the location data
                         // Load leaflet map and pass locations to the map to create pins
                         initializeMap(locations); // Initialize the map with location data
@@ -103,9 +111,6 @@
                         const latLng = L.latLng(location.coordinates); // Create a LatLng object
                         return bounds.contains(latLng); // Check if the location is within the bounds
                     });
-
-                    // Log how many locations in view
-                    console.log(string.length(visibleLocations));
 
                     displayLocations(visibleLocations); // Update the directory with filtered locations
                 }
