@@ -104,6 +104,9 @@
                         return bounds.contains(latLng); // Check if the location is within the bounds
                     });
 
+                    // Log how many locations in view
+                    console.log(visibleLocations);
+
                     displayLocations(visibleLocations); // Update the directory with filtered locations
                 }
 
