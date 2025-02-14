@@ -18,6 +18,10 @@
     margin-bottom: 30px;
 }
 
+.up-arrow {
+    text-align: center;
+}
+
 /* General styling for links inside .location-item */
 .location-item a {
     display: block;
