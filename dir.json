@@ -937,18 +937,6 @@
       "gmap": "LzJUPV6Fqwxp16Zu8"
     },
     {
-      "name": "Seamen's Center of Wilmington",
-      "coordinates": [
-        34.24185,
-        -77.91967
-      ],
-      "city": "Wilmington",
-      "state": "Delaware",
-      "country": "United States",
-      "email": "scw@scwde.org",
-      "phone": "+1-302-575-1300"
-    },
-    {
       "name": "Ship to Shore Regions Beyond International, Theodore",
       "coordinates": [
         30.42701294782255,
@@ -962,30 +950,15 @@
       "pmi": true
     },
     {
-      "name": "Southampton Seafarers' Centre",
+      "name": "Mission to Seafarers, Southampton",
       "coordinates": [
-        50.89524,
-        -1.40701
+        50.927046196659944,
+        -1.463581729711038
       ],
       "city": "Southampton",
-      "state": "England",
       "country": "United Kingdom",
-      "website": "southamptonseafarers.org/",
-      "email": "info@southamptonseafarers.org",
-      "phone": "+44 23 8045 4744"
-    },
-    {
-      "name": "St. Peter's Seafarers' Ministry",
-      "coordinates": [
-        40.71272,
-        -74.00906
-      ],
-      "city": "New York",
-      "state": "New York",
-      "country": "United States",
-      "website": "saintpetersnyc.org/seafarers-ministry",
-      "email": "seafarers@saintpetersnyc.org",
-      "phone": "(212) 235-1150"
+      "website": "missiontoseafarers.org/southampton",
+      "phone": "+7774328595"
     },
     {
       "name": "Stella Maris, Vancouver",
@@ -1210,19 +1183,6 @@
       "pmi": true
     },
     {
-      "name": "Terry Finlay Seafarers' Centre, Mission to Seafarers' Southern Ontario",
-      "coordinates": [
-        43.8973,
-        -78.8662
-      ],
-      "city": "Oshawa",
-      "state": "Ontario",
-      "country": "Canada",
-      "website": "mtsso.org",
-      "email": "jill.wyllie@rogers.com",
-      "phone": "(289) 830-4421"
-    },
-    {
       "name": "Texas Port Ministries, Freeport",
       "coordinates": [
         28.9404057551689,
@@ -1236,57 +1196,6 @@
       "phone": "+1-979-233-5641",
       "pmi": true,
       "gmap": "hJVfnGpd5D4NosgE9"
-    },
-    {
-      "name": "The Mariners' Church of Detroit",
-      "coordinates": [
-        42.32912,
-        -83.05092
-      ],
-      "city": "Detroit",
-      "state": "Michigan",
-      "country": "United States",
-      "website": "marinerschurchdetroit.org/",
-      "email": "info@marinerschurchdetroit.org",
-      "phone": "(313) 259-3200"
-    },
-    {
-      "name": "The Ministry to Seafarers of the CRC (Montreal)",
-      "coordinates": [
-        45.5017,
-        -73.5673
-      ],
-      "city": "Montreal",
-      "state": "Quebec",
-      "country": "Canada",
-      "website": "ministrytoseafarers.org/",
-      "email": "info@ministrytoseafarers.org",
-      "phone": "(514) 849-3234"
-    },
-    {
-      "name": "The Mission to Seafarers",
-      "coordinates": [
-        48.3794,
-        -89.2483
-      ],
-      "city": "Thunder Bay",
-      "state": "Ontario",
-      "country": "Canada",
-      "website": "missiontoseafarers.ca/GreatLakes.html",
-      "email": "thunder.bay@missiontoseafarers.ca",
-      "phone": "(807) 344-8241"
-    },
-    {
-      "name": "The Mission to Seafarers",
-      "coordinates": [
-        42.2998,
-        -83.0366
-      ],
-      "city": "Windsor",
-      "state": "Ontario",
-      "country": "Canada",
-      "website": "portwindsor.com/port-info/services/#1444328997092-8f352b8c-258e",
-      "phone": "519-253-4824"
     },
     {
       "name": "The Seafarers' Center of Galveston",
@@ -1329,54 +1238,16 @@
       "phone": "+1-215-922-2562"
     },
     {
-      "name": "Tianjin Seafarers' Centre",
+      "name": "Upper Room Seafarers Center",
       "coordinates": [
-        39.08415,
-        117.20098
-      ],
-      "city": "Tianjin",
-      "country": "China",
-      "website": "seafarers.org.cn/",
-      "email": "info@seafarers.org.cn",
-      "phone": "+86 22 2625 0911"
-    },
-    {
-      "name": "Upper Room Seafarers' Centre",
-      "coordinates": [
-        49.2242,
-        -124.8056
+        49.22961777907196,
+        -124.81111399930896
       ],
       "city": "Port Alberni",
       "state": "British Columbia",
       "country": "Canada",
-      "website": "facebook.com/Upper-Room-Seafarers-Center-Port-Alberni-1670483929937006/",
+      "website": "facebook.com/Upper-Room-Seafarers-Center-Port-Alberni-1670483929937006",
       "email": "pastor@avcrc.org"
-    },
-    {
-      "name": "Vancouver Seafarers' Centre",
-      "coordinates": [
-        49.28273,
-        -123.12074
-      ],
-      "city": "Vancouver",
-      "state": "British Columbia",
-      "country": "Canada",
-      "website": "vancouverseafarers.org/",
-      "email": "info@vancouverseafarers.org",
-      "phone": "(604) 683-4440"
-    },
-    {
-      "name": "Wellington Seafarers' Centre",
-      "coordinates": [
-        -41.28646,
-        174.77623
-      ],
-      "city": "Wellington",
-      "state": "Wellington",
-      "country": "New Zealand",
-      "website": "wellingtonseafarerscentre.org.nz/",
-      "email": "info@wellingtonseafarerscentre.org.nz",
-      "phone": "+64 4 382 6800"
     }
   ]
 }
