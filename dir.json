@@ -210,7 +210,7 @@
       "city": "Pascagoula",
       "state": "Mississippi",
       "country": "United States",
-      "website": "gojcba.com/seafarers-ministry",
+      "website": "facebook.com/InternationalSeafarersCenterPascagoula",
       "email": "vincesmithsf@gmail.com",
       "phone": "+1-228-762-6788",
       "pmi": true,
@@ -386,15 +386,16 @@
     {
       "name": "Lutheran Maritime Ministry",
       "coordinates": [
-        33.75557,
-        -118.21849
+        33.76647914983909,
+        -118.20911128979724
       ],
       "city": "Long Beach",
       "state": "California",
       "country": "United States",
-      "website": "lmmsocal.com/",
-      "email": "shekhar01@gmail.com",
-      "phone": "+1-562-209-1577"
+      "website": "lmmsocal.com",
+      "email": "LMMSOCAL@GMAIL.COM",
+      "phone": "+1-562-209-1577",
+      "gmap": "nvNWgsYmbnSs8PVc9"
     },
 
     {
@@ -410,20 +411,6 @@
       "email": "maisondumarin@live.ca",
       "phone": "+1-418-953-9677",
       "gmap": "pdfh3A6kpieft5Hq7"
-    },
-
-    {
-      "name": "Mariners' Church of Detroit",
-      "coordinates": [
-        42.32912,
-        -83.05092
-      ],
-      "city": "Detroit",
-      "state": "Michigan",
-      "country": "United States",
-      "website": "marinerschurchdetroit.org/",
-      "email": "info@marinerschurchdetroit.org",
-      "phone": "(313) 259-3200"
     },
     {
       "name": "Mariner's House",
@@ -442,15 +429,16 @@
     {
       "name": "Mariners' House",
       "coordinates": [
-        45.5017,
-        -73.5673
+        45.50295397124882,
+        -73.54964873369593
       ],
       "city": "Montreal",
       "state": "Quebec",
       "country": "Canada",
-      "website": "marinershouse.ca/",
+      "website": "marinershouse.ca",
       "email": "manager@marinershouse.ca",
-      "phone": "514-849-3234"
+      "phone": "514-849-3234",
+      "gmap": "tkqbanSDXM4Cxac2A"
     },
     {
       "name": "Maritime Bethel Savannah",
@@ -479,136 +467,105 @@
       "website": "ministrytoseafarers.com",
       "email": "crcvanportchaplain@gmail.com",
       "phone": "+1-604-253-4421",
-      "gmap": "https://maps.app.goo.gl/MpL7y94DGL2BzZqr6"
+      "gmap": "MpL7y94DGL2BzZqr6"
     },
     {
       "name": "Mission to Seafarers",
       "coordinates": [
-        44.6488,
-        -63.5752
+        44.63533307561809,
+        -63.568550203696226
       ],
       "city": "Halifax",
       "state": "Nova Scotia",
       "country": "Canada",
       "website": "missiontoseafarershalifax.ca",
       "email": "hglenn@bellaliant.com",
-      "phone": "(902) 422-7790"
+      "phone": "+1-902-422-7790",
+      "gmap": "CSb1TDHigpJSULp67"
     },
     {
-      "name": "Mission to Seafarers Hong Kong",
+      "name": "Mariner's Club",
       "coordinates": [
-        22.29756,
-        114.17281
+        22.351407950824928,
+        114.12337537086353
       ],
       "city": "Hong Kong",
       "country": "Hong Kong",
       "website": "missiontoseafarers.org/hong-kong",
-      "email": "info@missiontoseafarers.org",
-      "phone": "+852 2367 3039"
+      "email": "chaplaincy@themarinersclubhk.org",
+      "phone": "+852-2368-8261",
+      "gmap": "LZqiwCp28fuYHm667"
     },
     {
-      "name": "Mission to Seafarers London",
+      "name": "Mission to Seafarers of Southern Ontario, Hamilton",
       "coordinates": [
-        51.50712,
-        -0.08408
-      ],
-      "city": "London",
-      "state": "England",
-      "country": "United Kingdom",
-      "website": "missiontoseafarers.org/london",
-      "email": "info@missiontoseafarers.org",
-      "phone": "+44 20 7488 5254"
-    },
-    {
-      "name": "Mission to Seafarers of Southern Ontario",
-      "coordinates": [
-        43.2587,
-        -79.8479
+        43.266470274568576,
+        -79.833037136197
       ],
       "city": "Hamilton",
       "state": "Ontario",
       "country": "Canada",
       "website": "mtsso.org",
       "email": "dan.phannenhour@gmail.com",
-      "phone": "(905) 312-0808 or mobile (905) 616) 8985"
+      "phone": "+1-905-616-8985",
+      "whatsapp": "+19056168985",
+      "gmap": "n2QEVdtwaTwmktURA"
     },
     {
-      "name": "Mission to Seafarers of Southern Ontario",
+      "name": "Mission to Seafarers of Southern Ontario, Toronto",
       "coordinates": [
-        43.6532,
-        -79.3470
+        44.7722598868353,
+        -79.43589589960446
       ],
       "city": "Toronto",
       "state": "Ontario",
       "country": "Canada",
       "website": "www.mtsso.org",
-      "email": "glutenfreepriest@me.com",
-      "phone": "+1-416-469-5391"
+      "email": "deacon_michaelho@yahoo.com",
+      "phone": "+1-416-469-5391",
+      "gmap": "jp1EvCrsTrHRqwRc9"
     },
     {
-      "name": "Mission to Seafarers St. Clair Region",
+      "name": "Mission to Seafarers, Mumbai",
       "coordinates": [
-        42.9696,
-        -82.4411
-      ],
-      "city": "Point Edward",
-      "state": "Ontario",
-      "country": "Canada",
-      "website": "missiontoseafarers.ca/GreatLakes.html",
-      "email": "sarnia@missiontoseafarers.ca",
-      "phone": "+1-519-331-8472"
-    },
-    {
-      "name": "Mission to Seafarers – Liverpool",
-      "coordinates": [
-        53.40837,
-        -2.99157
-      ],
-      "city": "Liverpool",
-      "state": "England",
-      "country": "United Kingdom",
-      "website": "missiontoseafarers.org/liverpool",
-      "email": "liverpool@missiontoseafarers.org",
-      "phone": "+44 151 727 5877"
-    },
-    {
-      "name": "Mission to Seafarers – Mumbai",
-      "coordinates": [
-        18.9784,
-        72.8258
+        18.9313584550062,
+        72.95844271164556
       ],
       "city": "Mumbai",
       "state": "Maharashtra",
       "country": "India",
       "website": "missiontoseafarers.org/mumbai",
       "email": "mumbai@missiontoseafarers.org",
-      "phone": "+91 22 2261 3437"
+      "phone": "+91-970-263-2497"
     },
     {
-      "name": "Mission to Seafarers – Port of Antwerp",
+      "name": "Seamens Club, Antwerp",
       "coordinates": [
-        51.21719,
-        4.40277
+        51.24429798833489,
+        4.420861999920709
       ],
       "city": "Antwerp",
       "state": "Flanders",
       "country": "Belgium",
       "website": "missiontoseafarers.org/antwerp",
       "email": "antwerp@missiontoseafarers.org",
-      "phone": "+32 3 206 1033"
+      "phone": "+32471571219",
+      "whatsapp": "+32471571219",
+      "gmap": "cdTy8qCbLh4q5MWH8"
     },
     {
-      "name": "Mission to Seafarers – Sydney",
+      "name": "Mission to Seafarers, Sydney",
       "coordinates": [
-        -33.86882,
-        151.20929
+        -33.85703282523123,
+        151.20441058296362
       ],
       "city": "Sydney",
       "state": "New South Wales",
       "country": "Australia",
       "website": "missiontoseafarers.org/sydney",
       "email": "sydney@missiontoseafarers.org",
-      "phone": "+61 2 9281 5433"
+      "phone": "+61 2 9281 5433",
+      "gmap": "mR7vmx1F9iZ6kDFq7"
     },
     {
       "name": "Mobile Baptist Seafarer's Ministry",
@@ -695,20 +652,7 @@
       "gmap": "eEJvfivajju4UFTq6"
     },
     {
-      "name": "Port of Callao Seafarers' Centre",
-      "coordinates": [
-        -12.05997,
-        -77.12251
-      ],
-      "city": "Callao",
-      "state": "Lima",
-      "country": "Peru",
-      "website": "callaoseafarers.org/",
-      "email": "info@callaoseafarers.org",
-      "phone": "+51 1 419 9292"
-    },
-    {
-      "name": "Port of Charleston Seafarers' Center",
+      "name": "Charleston Port & Seafarers Society",
       "coordinates": [
         32.77657,
         -79.93106
@@ -716,40 +660,29 @@
       "city": "Charleston",
       "state": "South Carolina",
       "country": "United States",
-      "website": "portofcharleston.com/seafarers-center",
-      "email": "info@portofcharleston.com",
-      "phone": "(843) 577-2042"
+      "website": "charlestonseafarers.org",
+      "email": "chapssmail@gmail.com",
+      "phone": "+1-843-984-6116",
+      "gmap": "h3bsDo2oJXGuUHj79"
     },
     {
-      "name": "Port of Colombo Seafarers' Centre",
+      "name": "Mission to Seafarers, Colombo",
       "coordinates": [
-        6.92707,
-        79.86124
+        6.938534810631972,
+        79.84465943378859
       ],
       "city": "Colombo",
       "country": "Sri Lanka",
-      "website": "seafarerscolombo.org/",
+      "website": "missiontoseafarers.org/colombo",
       "email": "info@seafarerscolombo.org",
-      "phone": "+94 11 245 3101"
-    },
-    {
-      "name": "Port of Le Havre Seafarers' Centre",
-      "coordinates": [
-        49.49437,
-        0.10793
-      ],
-      "city": "Le Havre",
-      "state": "Normandy",
-      "country": "France",
-      "website": "missiontoseafarers.org/le-havre",
-      "email": "lehavre@missiontoseafarers.org",
-      "phone": "+33 2 35 22 11 98"
+      "phone": "+94 11 245 3101",
+      "gmap": "6TCeQmdJMeUdMqbRA"
     },
     {
       "name": "Port of Palm Beach Seafarers' Center",
       "coordinates": [
-        26.76531,
-        -80.05459
+        26.765484487281633,
+        -80.05655000194999
       ],
       "city": "Riviera Beach",
       "state": "Florida",
@@ -757,19 +690,6 @@
       "website": "palmbeachseafarerscenter.org",
       "email": "pbseafarers@gmail.com",
       "phone": "+1-561-480-4806"
-    },
-    {
-      "name": "Port of San Diego Seafarers' Center",
-      "coordinates": [
-        32.70807,
-        -117.17301
-      ],
-      "city": "San Diego",
-      "state": "California",
-      "country": "United States",
-      "website": "portofsandiego.org/seafarers-center",
-      "email": "seafarers@portofsandiego.org",
-      "phone": "(619) 686-6200"
     },
     {
       "name": "Port of Seattle Seafarers' Center",
@@ -800,30 +720,19 @@
       "pmi": true
     },
     {
-      "name": "Portsmouth Seafarers' Center",
+      "name": "Seafarers Club Rotterdam",
       "coordinates": [
-        50.80257,
-        -1.10408
-      ],
-      "city": "Portsmouth",
-      "state": "England",
-      "country": "United Kingdom",
-      "website": "portsmouthseafarers.org.uk/",
-      "email": "info@portsmouthseafarers.org.uk",
-      "phone": "+44 23 9283 4893"
-    },
-    {
-      "name": "Rotterdam Seafarers' Centre",
-      "coordinates": [
-        51.92222,
-        4.48178
+        51.909218508991785, 
+        4.38166904150836
       ],
       "city": "Rotterdam",
-      "state": "South Holland",
+      "state": "Schiedam",
       "country": "Netherlands",
-      "website": "seafarerscenterrotterdam.org/",
+      "website": "seafarersclubrotterdam.nl",
       "email": "info@seafarerscenterrotterdam.org",
-      "phone": "+31 10 477 6023"
+      "phone": "+31 6 18861342",
+      "whatsapp": "+31618861342",
+      "gmap": "psRS8eFNoH5EXviy7"
     },
     {
       "name": "Saguenay International Seafarers' Ministry",
@@ -834,22 +743,9 @@
       "city": "La Baie",
       "state": "Quebec",
       "country": "Canada",
-      "website": "facebook.com/pg/missioninternationaledesmarinsausaguenay/about/",
+      "website": "facebook.com/missioninternationaledesmarinsausaguenay/",
       "email": "seamensg@gmail.com",
-      "phone": "(418) 817-3244"
-    },
-    {
-      "name": "Sailors' Society",
-      "coordinates": [
-        51.28676,
-        -0.75115
-      ],
-      "city": "London",
-      "state": "England",
-      "country": "United Kingdom",
-      "website": "sailors-society.org/",
-      "email": "info@sailors-society.org",
-      "phone": "+44 (0) 20 7247 1212"
+      "phone": "+1-418-817-3244"
     },
     {
       "name": "Saint John Seafarers' Mission",
@@ -872,7 +768,7 @@
       ],
       "city": "Hamburg",
       "country": "Germany",
-      "website": "scfs.org/port/hamburg-port/",
+      "website": "scfs.org/port/hamburg-port",
       "email": "scfs.martin.otto@gmx.de",
       "phone": "+49 17 9399 4456",
       "pmi": true
@@ -907,14 +803,14 @@
     {
       "name": "Seafarer's House, Inc.",
       "coordinates": [
-        26.12072,
-        -80.16255
+        26.085596041989987,
+        -80.12292466807097
       ],
       "city": "Ft. Lauderdale",
       "state": "Florida",
       "country": "United States",
-      "email": "info@seafarershouse.org",
-      "phone": "+1-954-734-1580"
+      "email": "padre@seafarershouse.org",
+      "phone": "+1-252-259-1413"
     },
     {
       "name": "Seafarer's Ministry, Port of Fernandina",
@@ -932,66 +828,27 @@
     {
       "name": "Seafarers International House",
       "coordinates": [
-        41.30831,
-        -72.92363
+        40.73781753298639,
+        -73.99817814557412
       ],
       "city": "New Haven",
       "state": "Connecticut",
       "country": "United States",
-      "website": "sihnyc.org/",
-      "email": "port-mission@sihnyc.org",
-      "phone": "+1-203-543-7031"
+      "website": "sihnyc.org",
+      "email": "res@sihnyc.org",
+      "phone": "+1-212-677-4800"
     },
     {
-      "name": "Seafarers' Centre in Busan",
+      "name": "Mariner's Club, Busan",
       "coordinates": [
-        35.10221,
-        129.03229
+        35.10882855937945,
+        129.03859197892282
       ],
       "city": "Busan",
       "state": "South Korea",
       "country": "South Korea",
-      "website": "busanseafarers.org/",
-      "email": "info@busanseafarers.org",
-      "phone": "+82 51 463 2020"
-    },
-    {
-      "name": "Seafarers' Centre in Mauritius",
-      "coordinates": [
-        -20.22929,
-        57.50331
-      ],
-      "city": "Port Louis",
-      "state": "Port Louis",
-      "country": "Mauritius",
-      "website": "seafarersmauritius.org/",
-      "email": "info@seafarersmauritius.org",
-      "phone": "+230 211 5675"
-    },
-    {
-      "name": "Seafarers' Centre – Port of Los Angeles",
-      "coordinates": [
-        33.73929,
-        -118.27799
-      ],
-      "city": "Los Angeles",
-      "state": "California",
-      "country": "United States",
-      "website": "portoflosangeles.org/seafarers-center",
-      "email": "seafarers@portoflosangeles.org",
-      "phone": "(310) 547-0608"
-    },
-    {
-      "name": "Seafarers' Centre – Port of Singapore",
-      "coordinates": [
-        1.26449,
-        103.81974
-      ],
-      "city": "Singapore",
-      "country": "Singapore",
-      "website": "seafarerscentre.org.sg/",
-      "email": "info@seafarerscentre.org.sg",
-      "phone": "+65 6227 1188"
+      "phone": "+82-51-462-7470",
+      "gmap": "nDbqErCFLUhYdLi98"
     },
     {
       "name": "Seafarers' House of San Juan",
@@ -1052,20 +909,21 @@
       "gmap": "5siW8VvmKgvZsTuF6"
     },
     {
-      "name": "Seafarers' Mission Prince Rupert",
+      "name": "Seafarers Mission Prince Rupert",
       "coordinates": [
-        54.3147,
-        -130.3245
+        54.31378668656037,
+        -130.32301398903786
       ],
       "city": "Prince Rupert",
       "state": "British Columbia",
       "country": "Canada",
-      "website": "facebook.com/seafarersrupert.princerupert/",
+      "website": "facebook.com/seafarersrupert.princerupert",
       "email": "seafarers@citywest.ca",
-      "phone": "(250) 624-6724"
+      "phone": "+1-250-624-6724",
+      "gmap": "a7jX222MhUwUPUF56"
     },
     {
-      "name": "Seafarers' Welfare Centre (Manila)",
+      "name": "Manila International Seafarers Center",
       "coordinates": [
         14.60420,
         120.98221
@@ -1074,8 +932,9 @@
       "state": "Metro Manila",
       "country": "Philippines",
       "website": "seafarerswelfarecentre.org.ph/",
-      "email": "info@seafarerswelfarecentre.org.ph",
-      "phone": "+63 2 244 9897"
+      "email": "seafarerscentermanila@gmail.com",
+      "phone": "+63-289270429",
+      "gmap": "LzJUPV6Fqwxp16Zu8"
     },
     {
       "name": "Seamen's Center of Wilmington",
