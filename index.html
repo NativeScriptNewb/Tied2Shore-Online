@@ -144,7 +144,7 @@
                         }).addTo(map);
 
                         // Popup Content for each marker
-                        marker.bindPopup(`<b>${location.name}</b><br>${location.state}, ${location.country}`)
+                        marker.bindPopup(`<b>${location.name}</b><br>/*${location.state}, */${location.country}`)
 
                     // Update list to reflect only selected location
                     .on('popupopen', () => {
