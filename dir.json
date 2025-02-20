@@ -1139,6 +1139,296 @@
       "phone": "+44 23 8022 5065"
     },
     {
+      "name": "Stella Maris, Buenos Aires",
+      "coordinates": [-34.6037, -58.3816],
+      "city": "Buenos Aires",
+      
+      "country": "Argentina",
+      "email": "jantonio_rm@hotmail.com",
+      "phone": "+54 92914051710"
+    },
+    {
+      "name": "Stella Maris, Albany",
+      "coordinates": [-35.0260, 117.8820],
+      "city": "Albany",
+      "country": "Australia",
+      "email": "sma6330@yahoo.com.au",
+      "phone": "+61 423 866 932"
+    },
+    {
+      "name": "Stella Maris, Brisbane",
+      "coordinates": [-27.4698, 153.0251],
+      "city": "Brisbane",
+      "country": "Australia",
+      "email": "adminstellamaris@bne.centacare.net.au",
+      "phone": "+61 414 730 850"
+    },
+    {
+      "name": "Stella Maris, Hay Point",
+      "coordinates": [-23.398, 150.524],
+      "city": "Hay Point",
+      "country": "Australia",
+      "email": "stellamarismkymanager@gmail.com",
+      "phone": "+61 749 534 038"
+    },
+    {
+      "name": "Stella Maris, Mackay",
+      "coordinates": [-21.1411, 149.186],
+      "city": "Mackay",
+      "country": "Australia",
+      "email": "stellamarismkymanager@gmail.com",
+      "phone": "+61 749 534 038"
+    },
+    {
+      "name": "Stella Maris, Antwerp",
+      "coordinates": [51.2194, 4.4025],
+      "city": "Antwerp",
+      "country": "Belgium",
+      "email": "aposmar.antwerpen@skynet.be",
+      "phone": "+32 49 881 0724"
+    },
+    {
+      "name": "Stella Maris, Trois-Rivières",
+      "coordinates": [46.3433, -72.5620],
+      "city": "Trois-Rivières",
+      "state": "Quebec",
+      "country": "Canada",
+      "email": "foyerdesmarins@gmail.com",
+      "phone": "+1 819 373 7187"
+    },
+    {
+      "name": "Stella Maris, Hamburg",
+      "coordinates": [53.5511, 9.9937],
+      "city": "Hamburg",
+      "country": "Germany",
+      "email": "info@stella-maris.de",
+      "phone": "+49 4041542872"
+    },
+    {
+      "name": "Stella Maris, Tema",
+      "coordinates": [5.6167, 0.0333],
+      "city": "Tema",
+      "country": "Ghana",
+      "email": "dozsylva@gmail.com",
+      "phone": "+233 0244570584"
+    },
+    {
+      "name": "Stella Maris, Dublin",
+      "coordinates": [53.3498, -6.2603],
+      "city": "Dublin",
+      "country": "Ireland",
+      "email": "rosekearney111@hotmail.com",
+      "phone": "+35 3872678236"
+    },
+    {
+      "name": "Stella Maris, Ancona",
+      "coordinates": [43.6167, 13.5167],
+      "city": "Ancona",
+      "country": "Italy",
+      "email": "dinoreporter@gmail.com",
+      "phone": "+39 33 5593 8197"
+    },
+    {
+      "name": "Stella Maris, Genova",
+      "coordinates": [44.4056, 8.9463],
+      "city": "Genova",
+      "country": "Italy",
+      "email": "genoa@stellamaris.tv",
+      "phone": "+39 010 26 56 84"
+    },
+    {
+      "name": "Stella Maris, Livorno",
+      "coordinates": [43.5485, 10.3106],
+      "city": "Livorno",
+      "country": "Italy",
+      "email": "fraike.trinitari86@gmail.com",
+      "phone": "+39 3317210869"
+    },
+    {
+      "name": "Stella Maris, Milazzo",
+      "coordinates": [38.2100, 15.0500],
+      "city": "Milazzo",
+      "country": "Italy",
+      "email": "matteo.diflavia@alice.it",
+      "phone": "+39 347 161 3769"
+    },
+    {
+      "name": "Stella Maris, Monfalcone",
+      "coordinates": [45.83, 13.536],
+      "city": "Monfalcone",
+      "country": "Italy",
+      "email": "monfalcone@stellamaris.tv",
+      "phone": "+39 32 0093 2048"
+    },
+    {
+      "name": "Stella Maris, Napoli",
+      "coordinates": [40.8518, 14.2681],
+      "city": "Napoli",
+      "country": "Italy",
+      "email": "parrocchiasangennaro@gmail.com",
+      "phone": "+39 3394265140"
+    },
+    {
+      "name": "Stella Maris, Tokyo",
+      "coordinates": [35.6895, 139.6917],
+      "city": "Tokyo",
+      "country": "Japan",
+      "email": "edwindurocorros@gmail.com",
+      "phone": "+81 (80) 3354 3148"
+    },
+    {
+      "name": "Stella Maris, Grand Harbour & Free Port",
+      "coordinates": [35.8997, 14.5147],
+      "city": "Grand Harbour & Free Port",
+      "country": "Malta",
+      "email": "revjosephborg@gmail.com",
+      "phone": "+356 9987 9947"
+    },
+    {
+      "name": "Stella Maris, Batangas",
+      "coordinates": [13.7563, 121.0583],
+      "city": "Batangas",
+      "country": "Philippines",
+      "email": "tedrasisterhelen@yahoo.com",
+      "phone": "+63 922 315 6523"
+    },
+    {
+      "name": "Stella Maris, General Santos",
+      "coordinates": [6.1164, 125.1718],
+      "city": "General Santos",
+      "country": "Philippines",
+      "email": "StellaMaris.Gensan@gmail.com",
+      "phone": "+63 917 7245253"
+    },
+    {
+      "name": "Stella Maris, Manila",
+      "coordinates": [14.5995, 120.9842],
+      "city": "Manila",
+      "country": "Philippines",
+      "email": "aosmanila.ph@gmail.com",
+      "phone": "+63 (02) 527 2638"
+    },
+    {
+      "name": "Stella Maris, Gdansk",
+      "coordinates": [54.3520, 18.6466],
+      "city": "Gdansk",
+      "country": "Poland",
+      "email": "nowyport@op.pl",
+      "phone": "+48 502 245 812"
+    },
+    {
+      "name": "Stella Maris, Szczecin",
+      "coordinates": [53.4285, 14.5528],
+      "city": "Szczecin",
+      "country": "Poland",
+      "email": "stachoflis@wp.pl",
+      "phone": "+48 602 633 587"
+    },
+    {
+      "name": "Stella Maris, Barcelona",
+      "coordinates": [41.3851, 2.1734],
+      "city": "Barcelona",
+      "country": "Spain",
+      "email": "cruceros@stellamarisbarcelona.org",
+      "phone": "+34 699 842 796"
+    },
+    {
+      "name": "Stella Maris, Castellón",
+      "coordinates": [39.9864, -0.0513],
+      "city": "Castellón",
+      "country": "Spain",
+      "email": "info@stellamariscastellon.org",
+      "phone": "+34 679 42 00 45"
+    },
+    {
+      "name": "Stella Maris, Tarragona",
+      "coordinates": [41.1189, 1.2445],
+      "city": "Tarragona",
+      "country": "Spain",
+      "email": "stellamaris@arqtgn.cat",
+      "phone": "+34 639 978 982"
+    },
+    {
+      "name": "Stella Maris, Maptaput Port",
+      "coordinates": [12.0, 100.0],
+      "city": "Maptaput Port",
+      "country": "Thailand",
+      "email": "ekapop.p@hotmail.com",
+      "phone": "+668 4543 4333"
+    },
+    {
+      "name": "Stella Maris, Rayong",
+      "coordinates": [12.6820, 101.2789],
+      "city": "Rayong",
+      "country": "Thailand",
+      "email": "ekapop.p@hotmail.com",
+      "phone": "+668 4543 4333"
+    },
+    {
+      "name": "Stella Maris, Samae San",
+      "coordinates": [12.51, 101.0],
+      "city": "Samae San",
+      "country": "Thailand",
+      "email": "ekapop.p@hotmail.com",
+      "phone": "+668 4543 4333"
+    },
+    {
+      "name": "Stella Maris, Odesa",
+      "coordinates": [46.4825, 30.7233],
+      "city": "Odesa",
+      "country": "Ukraine",
+      "email": "fralexod@gmail.com",
+      "phone": "+380 963 614002"
+    },
+    {
+      "name": "Stella Maris, Fawley",
+      "coordinates": [50.7350, -1.3000],
+      "city": "Fawley",
+      "country": "United Kingdom",
+      "email": "charles.stuart@stellamarismail.org",
+      "phone": "+44 7843 739 579"
+    },
+    {
+      "name": "Stella Maris, Hull",
+      "coordinates": [53.7670, -0.3270],
+      "city": "Hull",
+      "country": "United Kingdom",
+      "email": "anne.mclaren@stellamarismail.org",
+      "phone": "+44 7906 661 633"
+    },
+    {
+      "name": "Stella Maris, King's Lynn",
+      "coordinates": [52.7520, 0.3950],
+      "city": "King's Lynn",
+      "country": "United Kingdom",
+      "email": "julian.wong@stella",
+      "phone": "+44 7758 356 372"
+    },
+    {
+      "name": "Stella Maris, Medway",
+      "coordinates": [51.3860, 0.5030],
+      "city": "Medway",
+      "country": "United Kingdom",
+      "email": "john.fogarty@stellamarismail.org",
+      "phone": "+447986723015"
+    },
+    {
+      "name": "Stella Maris, Plymouth",
+      "coordinates": [50.3755, -4.1427],
+      "city": "Plymouth",
+      "country": "United Kingdom",
+      "email": "ann.donnelly@stellamarismail.org",
+      "phone": "+44 7718268904"
+    },
+    {
+      "name": "Stella Maris, Portsmouth",
+      "coordinates": [50.8198, -1.0880],
+      "city": "Portsmouth",
+      "country": "United Kingdom",
+      "email": "charles.stuart@stellamarismail.org",
+      "phone": "+44 7843 739 579"
+    },  
+    {
       "name": "Tacoma Seafarers' Center",
       "coordinates": [
         47.267833,
