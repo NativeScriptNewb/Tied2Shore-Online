@@ -22,7 +22,7 @@
             let locations = [];
 
             function loadJSON() {
-                fetch('./dir.json') // Fetch JSON data and ensure .json is found
+                fetch('https://raw.githubusercontent.com/NativeScriptNewb/Tied2ShoreIO/refs/heads/main/dir.json') // Fetch JSON data and ensure .json is found
                     .then(response => {
                         if (!response.ok) throw new Error('Network response was not ok');
                         return response.json();
